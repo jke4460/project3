@@ -7,8 +7,10 @@ $(document).ready(function () {
 
     $pcGnb.find('li ul').hide();
     $pcGnb.find('> li > a').on('mouseenter focus', function () {
-        $(this).stop().next().slideDown();
-        $(this).addClass('on').siblings().removeClass('on');
+        $pcGnb.find('>li.on').removeClass('on').children('ul').slideUp('fast');
+
+        $(this).stop().next().slideDown('fast').parent().addClass('on');
+    
     });
     $pcGnb.on('mouseleave', gnbReturn);
     if (dep1 >= 0) gnbReturn();
@@ -18,8 +20,8 @@ $(document).ready(function () {
         },10);
     });
     function gnbReturn (){
-        $pcGnb2.stop().slideUp();
-        $pcGnb.find('>li>a.on').removeClass('on');
+        $pcGnb2.stop().slideUp('fast');
+        $pcGnb.find('>li.on').removeClass('on');
         if (dep1>=0) $pcGnb.find('>li').eq(dep1).addClass('on').find('ul li').eq(dep2).addClass('on');
     }
     /* 원페이지스크롤 */
@@ -96,4 +98,21 @@ $(document).ready(function () {
         }, 200);
     });
     /* 슬라이더 */
+    var $vis = $('#cnt2 .visual');
+    var liWid = $vis.children().outerWidth();
+    var totalNum = $vis.children().length;
+    var visWid = liWid *(totalNum);
+
+    $('.prev').on('click', function () {
+        if($vis.is(':animated')) return false;
+        $vis.prepend($vis.children().last().clone()).css({marginLeft:liWid}).animate({marginLeft:0}, function () {
+            $(this).children().last().remove();
+        });
+    });
+    $('.next').on('click', function () {
+        if($vis.is(':animated')) return false;
+        $vis.append($vis.children().first().clone()).animate({marginLeft:liWid}, function () {
+            $(this).css({marginLeft:0}).children().first().remove();
+        });
+    }); 
 });
