@@ -96,6 +96,4 @@ $(document).ready(function () {
         }, 200);
     });
     /* 슬라이더 */
-    var
-
 });
