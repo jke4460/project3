@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title> ThE Garden Gongbang </title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/common.js"></script>
+
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body id="main" body data-dep-one="1" data-dep-two="1">
+    <div id="skip">
+        <a href="#main">본문 바로가기</a>
+    </div>
+    <header id="header">
+        <div class="head_top">
+            <h1 class="logo"><a href="#main"><img src="images/common/logo.png" alt="가든공방"></a></h1>
+            <div class="btn_menu">
+                <!-- 모바일, 테블릿용 메뉴버튼 -->
+                <a href="">
+                    <img src="images/common/bars-solid.svg" alt="" width="43" height="28">
+                </a>
+            </div>
+            <nav id="pcGnb">
+                <ul class="dep1">
+                    <li>
+                        <a href="">메뉴</a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">가든 샐러드</a>
+                            </li>
+                            <li>
+                                <a href="">가든 샌드위치</a>
+                            </li>
+                            <li>
+                                <a href="">베이커리&amp;음료</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">이용방법</a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">가든공방 이용방법</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">이벤트</a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">이벤트.프로모션</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">새소식</a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="">가든공방 Story</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">매장안내</a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">지점 안내</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="close_btn" type="button"><img src="images/common/close_btn.svg" alt="" width="44"
+                        height="44"></button>
+            </nav>
+            <nav id="mGnb">
+                <ul>
+                    <li>
+                        <a href="">
+                            메뉴
+                            <img src="images/common/plus_btn.svg" alt="" width="44" height="44">
+                        </a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">가든 샐러드</a>
+                            </li>
+                            <li>
+                                <a href="">가든 샌드위치</a>
+                            </li>
+                            <li>
+                                <a href="">베이커리&amp;음료</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            이용방법
+                            <img src="images/common/plus_btn.svg" alt="" width="44" height="44">
+                        </a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">가든공방 이용방법</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            이벤트
+                            <img src="images/common/plus_btn.svg" alt="" width="44" height="44">
+                        </a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">이벤트.프로모션</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            새소식
+                            <img src="images/common/plus_btn.svg" alt="" width="44" height="44">
+                        </a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">공지사항</a>
+                            </li>
+                            <li>
+                                <a href="">가든공방 Story</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">
+                            매장안내
+                            <img src="images/common/plus_btn.svg" alt="" width="44" height="44">
+                        </a>
+                        <ul class="dep2">
+                            <li>
+                                <a href="">지점 안내</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <nav id="indicator">
+        <h2 class="blind">섹션별 컨텐츠 바로가기</h2>
+        <ul>
+            <li>
+                <a href="#cnt0">
+                <span class="txt">메인</span>
+                <span class="icon"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#cnt1">
+                    <span class="txt">브랜드 스토리</span>
+                    <span class="icon"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#cnt2">
+                    <span class="txt">Best Menu</span>
+                    <span class="icon"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#cnt3">
+                    <span class="txt">New Menu</span>
+                    <span class="icon"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#cnt4">
+                    <span class="txt">이벤트1</span>
+                    <span class="icon"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#cnt5">
+                    <span class="txt">이벤트2</span>
+                    <span class="icon"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#cnt6">
+                    <span class="txt">review</span>
+                    <span class="icon"></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section id="content">
+        <article id="cnt0">
+            <!-- bg로 색상깔기 -->
+            <div class="area">
+                <h3>Garden<br>Gongbang</h3>
+                <span>Live fresh anywhere</span><!-- 동적생성라인 -->
+                <p>
+                    가든 공방 샐러드의 모든 요리는 주문과 동시에 만들어 집니다.<br>쉽고 간단히 만들 수 있는 요리는 얼마든지 있습니다.<br>조금 번거롭고 조금 힘들더라도 따뜻하고 맛있는
+                    요리를<br>대접 하도록 노력 하겠습니다.
+                </p>
+                <em>“부담없이 건강한 식사”</em>
+                <img src="images/main/main_bg.png" alt="">
+            </div>
+        </article>
+        <article id="cnt1">
+            <div class="area">
+                <h3 class="title">About Us</h3>
+                <strong>Our Brand story</strong>
+                <p>
+                    가든 공방은 2017년 10월 ‘건강하게 먹는 건 어렵지 않아야 한다’ 라고 생각하는 몇 명의 청년들에 의해 시작되었습니다.<br>
+                    우리는 주변에서 밥과, 라면 그리고 패스트푸드를 쉽게 찾아 볼 수 있지만, 신선한 채소와 자연적인 식재료로 만든 음식은 찾기 어렵습니다.<br>
+                    우리는 정성스럽게 만든, 몸에 좋은 음식을 기분 좋게 먹을 자격이 있습니다.<br>
+                    이런 건강한 식습관을 합리적인 가격으로 신선하며 맛있고 푸짐하게 제공하는 것, 이것이 저희 가든 공방이 약속드리는 것입니다.<br>
+                    저희는 가능한 현지에서 나는 재료들을 사용하고, 모든 샐러드드레싱은 재료 고유의 신선함을 살리기 위해 매장에서 직접 만듭니다.<br>
+                    이렇게 샐러드 볼이 여러분의 만족스러운 한 끼 식사가 될 수 있게 정성스럽게 준비하고 있습니다.<br>
+                    가든 공방만의 아주 특별하고 독특한 맛이 여러분의 사랑을 듬뿍 받기를 진심으로 바랍니다.
+                </p>
+                <img src="images/main/images.png" alt="">
+            </div>
+        </article>
+        <article id="cnt2" class="left">
+            <div class="bg">
+                <div class="area">
+                    <h3 class="title">Best Menu</h3>
+                    <div class="slider">
+                        <ul class="visual">
+                            <li>
+                                <img src="images/main/best_1.png" alt="">
+                                <div class="txt">
+                                    <h4 class="p_r">SPICY THAI</h4>
+                                    <p>
+                                        파프리카 시즈닝으로 구운 통통한 새우,<br>
+                                        가볍게 양념된 씨앗과 캐슈넛, 파, 자색 양배추,<br>
+                                        채 썬 당근, 빨간 피망, 오이, 소량의 고수, 신선한 채소 믹스,<br>
+                                        가든 공방만의 매콤한 땅콩버터 드레싱.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/main/best_2.png" alt="">
+                                <div class="txt">
+                                    <h4 class="p_r">BEEF UP!</h4>
+                                    <p>
+                                        소고기, 미니 양파 튀김, 퀴노아, 삶은 계란, 방울토마토,<br>
+                                        구운 파프리카, 적무, 채소 믹스, 유자 드레싱
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/main/best_3.png" alt="">
+                                <div class="txt">
+                                    <h4 class="p_r">CITRUS BLOOM</h4>
+                                    <p>
+                                        감귤, 식용꽃, 치아 씨드, 귀리, 호두,<br> 크랜베리, 채소 믹스, 디종 머스터드 드레싱
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="control p_a">
+                            <button class="prev" type="button"><img src="images/common/prev_btn.png"
+                                    alt="이전 슬라이더"></button>
+                            <button class="next" type="button"><img src="images/common/next_btn.png"
+                                    alt="다음 슬라이더"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="cnt3" class="right">
+            <div class="bg">
+                <div class="area">
+                    <h3 class="title">New Menu</h3>
+                    <div class="slider">
+                        <ul class="visual">
+                            <li>
+                                <img src="images/main/new_1.png" alt="">
+                                <div class="txt">
+                                    <h4>BEEF CHIPOTLE</h4>
+                                    <p>
+                                        다진 표고 버섯, 양념 소고기, 데친 피망과 양파, 건강 만점 검정콩,<br> 신선한 토마토, 신선한 채소 믹스, 아보카도,<br> 매콤한
+                                        치폴레
+                                        드레싱과 고수, 옥수수 토틸라 칩.
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/main/new_2.png" alt="">
+                                <div class="txt">
+                                    <h4>CHICKEN CAESAR</h4>
+                                    <p>
+                                        푸짐한 닭가슴살, 신선한 채소 믹스, 잘 익은 방울 토마토,<br> 크리미 파르메산 치즈가 샐러드 브라더스 수제 시져 드레싱으로 버무려진 샐러드
+                                        입니다.<br> 소량의 야채 칩스과 함께 제공되고 있습니다.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="control">
+                            <button class="prev" type="button"><img src="images/common/prev_btn.png"
+                                    alt="이전 슬라이더"></button>
+                            <button class="next" type="button"><img src="images/common/next_btn.png"
+                                    alt="다음 슬라이더"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="cnt4">
+            <div class="event1">
+                <div class="bg2">
+                    <div class="main_txt area">
+                        <h3 class="title2">1 MORNING EVENT</h3>
+                        <p>
+                            <span>10:00am 부터 11:00 am</span>까지<br>
+                            가든 공방 샐러드를 구매하신는 분에 한하여<br>
+                            아메리카노 혹은 플레인 스콘을<br>
+                            무료로 제공하고 있습니다.
+                        </p>
+                        <div class="circle right">
+                            <img src="images/main/icon_1.png" alt="">
+                            <p>
+                                10:00am ~ 11:00 am<br>
+                                Happy Hour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="cnt5">
+            <div class="event2">
+                <div class="bg1"></div><!-- 배경이미지 -->
+                <div class="bg2">
+                    <div class="main_txt area">
+                        <h3 class="title2">2 CATERING EVENT</h3>
+                        <p>
+                            스포츠 행사부터 비즈니스 회의까지<br>
+                            다양한 이벤트 케이터링 서비스를 제공 합니다.<br>
+                            <span>7/1 부터 한달간</span> 케이터링 신청시<br> 신제품 샐러드가
+                            30%할인 됩니다.
+                        </p>
+                        <div class="circle right">
+                            <img src="images/main/icon_2.png" alt="">
+                            <p>
+                                7/1~7/31<br>Happy Month
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="cnt6">
+            <div class="area">
+                <h3 class="title">Review</h3>
+                <p class="subTxt">
+                    가든 공방을 이용하신 후 sns에 후기를 남겨주시면,<br>
+                    매달5분을 추첨하여 과일 스무디 쿠폰을 드립니다!
+                </p>
+                <ul>
+                    <li class="list1">
+                        <img src="images/main/review_1.jpg" alt="">
+                        <p>진짜 너무 맛있는 샐러드집이에오,,<br>
+                            집에서 직접 만들어 먹는 식단 하기 전에는<br>
+                            나름</p>
+                    </li>
+                    <li class="list2">
+                        <img src="images/main/review_2.jpg" alt="">
+                        <p>#퀴노아아보카도샐러드<br>아보카도는 어쩜 정말 매번 먹어도 맛있지?</p>
+                    </li>
+                    <li class="list3">
+                        <img src="images/main/review_3.jpg" alt="">
+                        <p>건강해지는 한끼<br>#일상 #먹방 #먹스타그램 #맛스타그램</p>
+                    </li>
+                    <li class="list4">
+                        <img src="images/main/review_4.jpg" alt="">
+                        <p>구운 닭이랑 새우가 뭐 얼마나<br>특별한 맛이겠어..?! 하면서 먹었는데,<br>이 맛 무엇..</p>
+                    </li>
+                    <li class="list5 top">
+                        <img src="images/main/review_5.jpg" alt="">
+                        <p>분위기 중 특히 #가든공방이 맘에 들어<br> 와보고 싶었던 곳!<br>식사는 비싼편 하지만 건강한 한끼였다</p>
+                    </li>
+                    <li class="list6 top">
+                        <img src="images/main/review_6.jpg" alt="">
+                        <p>메뉴 하나당 비싸긴 한데,<br>좋은 농장에서 자란 고급 재료들로<br>정성스레 담았다.<br>#퀴노아아보카도샐러드</p>
+                    </li>
+                    <li class="list7 top">
+                        <img src="images/main/review_7.jpg" alt="">
+                        <p>정말 감동했던 샐러드와 새우.<br>이런 샐러드면 밥 대신<br>매일도 먹을거같은데..ㅋ </p>
+                    </li>
+                    <li class="list8 top">
+                        <img src="images/main/review_8.jpg" alt="">
+                        <p>강남에서 맛본 가든공방 셀러드!<br>건강식 메뉴들이라 자극적이지 않고<br> 맛있었던 곳!! </p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </section>
+    <footer id="footer">
+        <div class="area wrap">
+            <a href="">
+                <img src="images/common/footer_logo.png" alt="가든공방">
+            </a>
+            <div class="foot_box">
+                <ul class="foot_link">
+                    <li class="list1"><a href="">제휴제안</a></li>
+                    <li class="list2"><a href="">개인정보 처리방침</a></li>
+                    <li class="list3"><a href="">FOOD CAPITAL</a></li>
+                </ul>
+                <p>가든공방 주식회사사업자등록번호: 111-12-12345 통신판매업 신고번호 : 20151-2345</p>
+                <p class="copy">Copyright &copy; garden gongbang All Rights Reserved</p>
+            </div>
+            <ul class="sns">
+                <li class="twitter">
+                    <a href=""><img src="images/common/sns_twitter_1.png" alt="트위터"></a>
+                </li>
+                <li class="facebook">
+                    <a href=""><img src="images/common/sns_facebook_2.png" alt="페이스북"></a>
+                </li>
+                <li class="insta">
+                    <a href=""><img src="images/common/sns_insta_3.png" alt="인스타그램"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

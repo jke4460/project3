@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* 본문 */
+#content article{height: 920px}
+/* font style */
+.title{font-size: 48px;text-align: center;padding-top: 10px}
+.title:after, .title2:after{content: "";display: block;width: 35px;height: 1px;background: #235b42;margin-left: 49%;margin-top: 10px}
+
+/* #cnt0 */
+#cnt0{color: #fff}
+#cnt0 h3{font-family: NotoB;font-size: 73px;padding-top: 210px}
+#cnt0 span{position: absolute;font-family: NotoT;font-size: 30px;margin-top: -290px}
+#cnt0 span:before{content: "";display: block;width: 35px;height: 1px;background: #fff;margin-bottom: 10px}
+#cnt0 p{line-height: 32px;margin-top: 51px}
+#cnt0 em{display: block;font-size: 22px;width: 251px;height: 40px;line-height: 40px;background: rgba(255, 255, 255, 0.4);padding: 3px 5px 3;margin-top: 35px;text-align: center}
+#cnt0 img{position: absolute;top: 0 ;left: 50%;margin-top: 120px}
+
+/* #cnt1 */
+#cnt1{text-align: center;background: url("../images/main/main_bg2.png")0 0}
+#cnt1 strong{display: block;font-size: 24px;margin: 10px 0 50px}
+#cnt1 p{font-size: 20px;line-height: 35px}
+#cnt1 img{margin-top: 42px}
+
+/* #cnt2, #cnt3 */
+#cnt2{background: url("../images/main/main_bg3.png")no-repeat left 0 center;}
+#cnt3{background: url("../images/main/main_bg4.png")no-repeat right 0 center;}
+#cnt2 ul li, #cnt3 ul li{float: left}
+#cnt2 .slider, #cnt3 .slider{color: #fff}
+#cnt2 .slider li img{width: 435px;height: 435px;margin-left: 150px}
+.txt h4{position: relative;font-size: 30px;margin-bottom: 30px}
+.txt h4:after{content: "";position: absolute;bottom: 0;top: 55px;width: 35px;height: 1px;background: #fff}
+.txt p{line-height: 30px}
+#cnt2 .txt h4:after{left: 0;}
+#cnt3 .txt h4:after{right: 0;}
+#cnt3 .txt{text-align: right;color: #fff;float: right}
+.control{position: absolute;}
+.control .next{margin-left: 36px}
+#cnt2 .control{margin-left: 350px;margin-top:160px}
+.slider{height: 564px}
+.slider ul{width: 3600px;padding-top: 150px}
+.slider ul li{width: 1200px;height: 414px}
+.slider ul li .txt{float: left;margin-top: 150px}
+#cnt3 .slider ul {padding-top: 200px}
+#cnt3 .visual li img{margin-left: 300px}
+#cnt3 .visual li .txt{margin-top: 30px;}
+#cnt3 .control{left: 55%;margin-top:30px}
+
+
+
+/* 공통 */
+#cnt4, #cnt5{text-align: center;color: #fff}
+.title2{font-size: 40px}
+.title2:after{background-color: #fff}
+.main_txt{font-size: 20px;width: 400px;padding-top: 200px}
+.main_txt p{padding: 60px 0 47px 0 }
+.main_txt .circle{width: 270px;height: 270px;border-radius: 50%;background-color: rgba(255, 255, 255, 0.2);margin-left: 65px}
+.main_txt .circle img{margin-top: 50px}
+.main_txt .circle p{padding: 0;font-size: 14px;padding-top: 16px}
+.main_txt .circle p:before{content: "";display: block;width: 27px;height: 1px;background: #fff;margin-left: 45%;margin-bottom: 16px}
+/* #cnt4 */
+#cnt4 .event1{background: url("../images/main/e.jpg")no-repeat;height: 100%;}
+#cnt4 .main_txt{margin-left: 60%}
+/* #cnt5 */
+#cnt5 .event2{background: url("../images/main/e2.jpg")no-repeat;height: 100%;}
+#cnt5 .main_txt{margin-right: 60%}
+
+/* #cnt6 */
+#cnt6{background: url("../images/main/review_bg.jpg")no-repeat}
+#cnt6 .subTxt{text-align: center;font-size: 15px;padding: 20px 0 35px 0}
+#cnt6 ul{width: 100%;height: 610px;margin-left: 93px}
+#cnt6 ul li{float: left;margin-left: 22px}
+#cnt6 ul li p{width: 237px;background: #fff;height: 90px;font-size: 12px;text-align: left;padding: 10px 0 20px 10px;box-sizing: border-box}
+#cnt6 ul .list1, #cnt6 ul .list5{margin-left: 0}
+#cnt6 ul .top{margin-top: 38px}
