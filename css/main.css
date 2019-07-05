@@ -117,7 +117,7 @@
     /* header */
     .head_top h1{margin-right: 0px;margin-left: 15px}
     .logo{margin-top: 0;left: -15px}
-    .area{width: 100%;padding: 0 15px}
+    .area{width: 95%;box-sizing: border-box}
     .head_top{width: 1007px;height: 60px}
     #header{height: 60px}
     .head_top h1{margin-right: 263px}
@@ -149,6 +149,7 @@
     #cnt2{background-size: 800px}
     #cnt3{background-size: 700px}
     #cnt2 .slider li img{width: 400px;height: 400px;margin-left: 150px;margin-top: 60px}
+    #cnt2 .visual li .txt{margin-left: 70px}
     #cnt3 .visual li img{width: 350px;height: 350px;margin-left: 140px;margin-top: 25px}
     #cnt3 .visual li .txt{margin-top: 100px;margin-right: 70px}
     #cnt3 .slider ul {padding-top: 200px}
@@ -159,26 +160,27 @@
     #cnt3 .control{left: 52%;margin-top:95px}
 
     /* cnt4 */
-    #cnt4 .event1{background: url("../images/main/e.jpg")no-repeat;height: 100%;}
-    #cnt4 .main_txt{margin-left: 60%}
+    .title2{font-size: 30px}
+    .title2:after{background-color: #fff}
+    .main_txt{font-size: 16px;width: 300px;padding-top: 100px;}
+    .main_txt p{padding: 20px 0 47px 0 }
+    .main_txt .circle{width: 250px;height: 250px;margin-left: 10px}
+    .main_txt .circle p{font-size: 13px;padding-top: 10px}
+    .main_txt .circle p:before{content: "";display: block;width: 27px;height: 1px;background: #fff;margin-left: 45%;margin-bottom: 16px}
+    #cnt4 .event1{background-image: url("../images/main/t_bg_e1.jpg")}
     /* #cnt5 */
-    #cnt5 .event2{background: url("../images/main/e2.jpg")no-repeat;height: 100%;}
+    #cnt5 .event2{background-image: url("../images/main/t_bg_e2.jpg")}
     #cnt5 .main_txt{margin-right: 60%}
 
-    /* cnt5 */
     /* cnt6 */
-
-
-}
-
-
-   /*  
-
-    .scroll{position: fixed;bottom: 30px;left: 50%;margin-left: -12px;width: 24px;background: url("../images/common/scroll_w.png") no-repeat center top}
-    .scroll.black{background-image: url("../images/common/scroll_b.png");color: #2b2b2b}
-
-    .scroll p{font-size: 14px;margin-left: -5px;padding-top: 37px}
-    .btnTop{position: fixed;bottom: 30px;right: 3%;border: 1px solid #000;background: rgba(255, 255, 255, 0.5);border: none}
-    .btnTop span{font-size: 14px;display: block;color: #ff3333;} */
+    #cnt6{background: url("../images/main/review_bg.jpg")no-repeat}
+    #cnt6 h3{padding-top:0;margin-top: -10px}
+    #cnt6 .subTxt{font-size: 13px}
+    #cnt6 ul{width: 1000px;height: 600px;margin-left: 0px}
+    #cnt6 ul li{float: left;margin-left: 0px}
+    #cnt6 ul li p{width: 237px;background: #fff;height: 80px;font-size: 13px;text-align: left;padding: 10px 0 20px 10px;box-sizing: border-box}
+    #cnt6 ul .list1, #cnt6 ul .list5{margin-left: 0}
+    #cnt6 ul .top{margin-top: 20px}
+    #cnt6 ul li.on p{font-size: 13px;}
 
 }
