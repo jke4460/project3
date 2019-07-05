@@ -53,6 +53,11 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
 #header{position: absolute;top: 0;left: 0;width: 100%;height: 90px;color: #fff;z-index: 100}
 #header .logo{float: left;padding-top: 35px}
 
+
+/* {display: none}초기화면에서 숨길 컨텐츠 */
+.close_btn, .btn_menu, #mGnb{display: none}
+
+
 /* navigation */
 .head_top{width: 1200px;z-index: 500;height: 90px;margin: 0 auto}
 .head_top h1{margin-right: 263px}
@@ -69,14 +74,6 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
 
 /* content */
 #content article{height: 920px;}
-
-
-
-
-/* 모바일gnb */
-#mGnb,.close_btn, .btn_menu{display: none}
-
-
 
 /* footer */
 #footer{height: 190px;background: #fff;color: #ccc}
@@ -97,11 +94,3 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
 
 /* transition */
 #pcGnb > ul > li > a,#footer .area .foot_link li a, #pcGnb ul li ul li a{transition: all .6s}
-
-
-
-
-
-
-
-
