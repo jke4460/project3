@@ -1,8 +1,9 @@
 @charset "utf-8";
 /* 본문 */
 #content article{height: 920px}
-/* font style */
-.title{font-size: 48px;text-align: center;margin-top: -210px}
+/* font style
+.title{font-size: 48px;text-align: center;margin-top: -210px} */
+.title{font-size: 48px;text-align: center;}
 .title:after, .title2:after{content: "";display: block;width: 35px;height: 1px;background: #235b42;margin-left: 49%;margin-top: 10px}
 
 /* indicator */
@@ -40,9 +41,9 @@
 .btnTop{position: fixed;bottom: 30px;right: 3%;border: 1px solid #000;background: rgba(255, 255, 255, 0.5);border: none}
 .btnTop span{font-size: 14px;display: block;color: #ff3333;}
 
-
-/* #cnt1 */
-#cnt1{text-align: center;background: url("../images/main/main_bg2.png") no-repeat top center}
+/* #cnt1
+#cnt1{text-align: center;background: url("../images/main/main_bg2.png") no-repeat top center} */
+#cnt1{text-align: center;background-image: url("../images/main/main_bg2.png")}
 #cnt1 strong{display: block;font-size: 24px;margin: 10px 0 50px}
 #cnt1 p{font-size: 20px;line-height: 35px}
 #cnt1 .polygon{width:340px;height: 340px;position: relative;left: 50%;margin-left: -170px;margin-top: 44px}
@@ -71,48 +72,58 @@
 .slider ul li{width: 1200px;height: 435px}
 .slider ul li .txt{float: left;margin-top: 150px}
 #cnt3 .slider ul {padding-top: 200px}
-#cnt3 .visual li img{margin-left: 240px;margin-top: -25px}
-#cnt3 .visual li .txt{margin-top: 30px;}
+#cnt3 .visual li img{margin-left: 170px;margin-top: -25px}/* margin-left: 240px; */
+#cnt3 .visual li .txt{margin-top: 30px;margin-right: 70px;}
 #cnt3 .control{left: 55%;margin-top:30px}
 
 /* 공통 */
 #cnt4, #cnt5{text-align: center;color: #fff}
 .title2{font-size: 40px}
 .title2:after{background-color: #fff}
-.main_txt{font-size: 20px;width: 400px;padding-top: 200px;box-sizing: border-box}
+.main_txt{font-size: 20px;width: 400px;box-sizing: border-box}/* padding-top: 200px; */
 .main_txt p{padding: 60px 0 47px 0 }
 .main_txt .circle{width: 270px;height: 270px;border-radius: 50%;background-color: rgba(255, 255, 255, 0.2);margin-left: 65px}
 .main_txt .circle img{margin-top: 50px}
 .main_txt .circle p{padding: 0;font-size: 14px;padding-top: 16px}
 .main_txt .circle p:before{content: "";display: block;width: 27px;height: 1px;background: #fff;margin-left: 45%;margin-bottom: 16px}
-/* #cnt4 */
-#cnt4 .event1{background: url("../images/main/e.jpg")no-repeat;height: 100%;}
+/* #cnt4
+#cnt4 .event1{background: url("../images/main/e.jpg")no-repeat;height: 100%;} */
+#cnt4{background-image: url("../images/main/e.jpg")}
 #cnt4 .main_txt{margin-left: 60%}
-/* #cnt5 */
-#cnt5 .event2{background: url("../images/main/e2.jpg")no-repeat;height: 100%;}
+/* #cnt5
+#cnt5 .event2{background: url("../images/main/e2.jpg")no-repeat;height: 100%;} */
+#cnt5{background-image: url("../images/main/e2.jpg")}
 #cnt5 .main_txt{margin-right: 60%}
 
-/* #cnt6 */
-#cnt6{background: url("../images/main/review_bg.jpg")no-repeat}
+/* #cnt6
+#cnt6{background: url("../images/main/review_bg.jpg")no-repeat} */
+#cnt6{background-image: url("../images/main/review_bg.jpg")}
 #cnt6 .subTxt{text-align: center;font-size: 15px;padding: 20px 0 35px 0}
-#cnt6 ul{width: 100%;height: 610px;margin-left: 93px}
+#cnt6 ul{width: 100%;margin-left: 93px}/* height: 610px;대신 공통클래스 .clearfix 1440이하 해상도 부터 한줄(4개만) 보여지도록 */
 #cnt6 ul li{float: left;margin-left: 22px}
 #cnt6 ul li p{width: 237px;background: #fff;height: 90px;font-size: 12px;text-align: left;padding: 10px 0 20px 10px;box-sizing: border-box}
 #cnt6 ul .list1, #cnt6 ul .list5{margin-left: 0}
 #cnt6 ul .top{margin-top: 38px}
-
-
 #cnt6 ul li img,#cnt6 ul li p{transition: all 0.4s} 
 #cnt6 ul li{background: #235b42}
 #cnt6 ul li.on img{opacity: 0}
 #cnt6 ul li.on p{background-color: #235b42;color: #fff;padding: 0;text-align: center;font-size: 14px;top: 0}
 
+#cnt1, #cnt4, #cnt5, #cnt6{background-size: cover;background-repeat: no-repeat;background-position: center}
+
+/* 추가 */
+@media screen and (max-width: 1440px) {
+	#cnt0 .area img{left: 49%;}
+
+	#cnt6 .subTxt{padding-bottom: 50px;}
+	#cnt6 ul li.top{display: none;}
+}
 /* 테블릿 */
 @media screen and (max-width: 1024px) {
     /* display_none */
     .scroll{display: none}
     /* 공통 */
-    .title{font-size: 40px;padding-top: 150px}
+    .title{font-size: 40px;padding-top: 10px}
     .title:after, .title2:after{width: 30px;height: 1px;background: #235b42;margin-left: 49%;margin-top: 10px}
     /* header */
     .head_top h1{margin-right: 0px;margin-left: 15px}
@@ -167,20 +178,79 @@
     .main_txt .circle{width: 250px;height: 250px;margin-left: 10px}
     .main_txt .circle p{font-size: 13px;padding-top: 10px}
     .main_txt .circle p:before{content: "";display: block;width: 27px;height: 1px;background: #fff;margin-left: 45%;margin-bottom: 16px}
-    #cnt4 .event1{background-image: url("../images/main/t_bg_e1.jpg")}
+    /* #cnt4 .event1{background-image: url("../images/main/t_bg_e1.jpg")} */
+    #cnt4{background-image: url("../images/main/t_bg_e1.jpg")}
     /* #cnt5 */
-    #cnt5 .event2{background-image: url("../images/main/t_bg_e2.jpg")}
+    /* #cnt5 .event2{background-image: url("../images/main/t_bg_e2.jpg")} */
+    #cnt5{background-image: url("../images/main/t_bg_e2.jpg")}
     #cnt5 .main_txt{margin-right: 60%}
 
     /* cnt6 */
     #cnt6{background: url("../images/main/review_bg.jpg")no-repeat}
-    #cnt6 h3{padding-top:0;margin-top: -10px}
+    #cnt6 h3{padding-top:0}
     #cnt6 .subTxt{font-size: 13px}
-    #cnt6 ul{width: 1000px;height: 600px;margin-left: 0px}
+    #cnt6 ul{margin-left: 0px}
     #cnt6 ul li{float: left;margin-left: 0px}
+    
     #cnt6 ul li p{width: 237px;background: #fff;height: 80px;font-size: 13px;text-align: left;padding: 10px 0 20px 10px;box-sizing: border-box}
-    #cnt6 ul .list1, #cnt6 ul .list5{margin-left: 0}
     #cnt6 ul .top{margin-top: 20px}
     #cnt6 ul li.on p{font-size: 13px;}
+    /* footer */
+    #footer{height: 160px;}
+    #footer .wrap{padding: 0 30px}
+    #footer .area .sns{right: 40px;}
+}
 
+
+
+@media screen and (max-width: 767px) {
+    .title{font-size: 25px;padding-top: 0px}
+    .title:after, .title2:after{width: 16px;margin-left: 49%;margin-top: 5px}
+    .area{border: 1px solid #000;text-align: center}
+    #header{height: 105px}
+    #header .head_top{width: 100%;background: #235b42;border: 1px solid #000;height: 70px;position: fixed}
+    #header .logo{padding-top: 13px}
+    #header .btn_menu{padding-top: 20px}
+    .close_btn, .btn_menu, #mGnb{display: block}
+    #pcGnb, #mGnb{display: none}
+    .btn_menu{position: absolute;right: 0;margin-right: 5px}
+
+    /* #cnt0 */
+    #cnt0{padding-top: 0px}
+    #cnt0 .area h3{font-size: 40px;line-height: 40px;margin-bottom: 200px}
+    #cnt0 .area span{font-size: 20px;margin-top: -350px;left: 155px}
+    #cnt0 .area span:before{width: 30px;margin-bottom: 5px;margin-left: 75px}
+    #cnt0 .area img{top: 300px ;left: 20%;margin-top: 0px;width: 300px;height: 300px;}
+    #cnt0 .area p{font-size: 14px;padding-top: 160px;line-height: 28px}
+    #cnt0 em{font-size: 12px;width:125px;height: 24px;line-height: 24px;margin: 0 auto;margin-top: 20px}
+
+    /* #cnt1 */
+    #cnt1{background: none}
+    #cnt1 strong{display: block;font-size: 15px}
+    #cnt1 p{font-size: 13px;line-height: 26px}
+
+    /* #cnt2 */
+    #cnt2,  #cnt3{width: 100%;background-size: contain;background-position: 0 30%;color: #2b2b2b }
+   #cnt2 .txt h4, #cnt3 .txt h4{font-size: 25px;margin-bottom: 30px}
+   .txt h4:after{top: 40px;width: 30px}
+   .txt p{line-height: 28px;font-size: 15px}
+   .slider{height: 800px;width: 700px;margin-top: 0px}
+   .slider ul{width: 3600px;padding-top: 100px}
+   .slider ul li{width: 400px}
+   .slider ul li .txt{float: none;margin-top: 0px;color: #2b2b2b}
+   #cnt2 .slider li img{width: 215px;height: 215px;margin-left: 0px;margin-top: 0px}
+   #cnt2 .visual li .txt{margin-left: 0px}
+   #cnt3 .visual li img{width: 230px;height: 230px;margin-left: 140px;margin-top: 0px}
+   #cnt3 .visual li .txt{margin-top: 0px;margin-right: 0px;color: #2b2b2b;text-align: center}
+   #cnt3 .slider ul {padding-top: 0px}
+
+   .control .next{margin-left: 0px;right: 0}
+   .control .prev{left: 0}
+   #cnt2 .control{margin-left: 400px;margin-top:160px}
+   #cnt3 .control{left: 52%;margin-top:95px}
+
+
+
+ /* 
+*/
 }
