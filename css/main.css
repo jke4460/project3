@@ -201,14 +201,12 @@
     #footer .area .sns{right: 40px;}
 }
 
-
-
 @media screen and (max-width: 767px) {
     .title{font-size: 25px;padding-top: 0px}
     .title:after, .title2:after{width: 16px;margin-left: 49%;margin-top: 5px}
-    .area{border: 1px solid #000;text-align: center}
+    .area{text-align: center}
     #header{height: 105px}
-    #header .head_top{width: 100%;background: #235b42;border: 1px solid #000;height: 70px;position: fixed}
+    #header .head_top{width: 100%;background: #235b42;height: 70px;position: fixed}
     #header .logo{padding-top: 13px}
     #header .btn_menu{padding-top: 20px}
     .close_btn, .btn_menu, #mGnb{display: block}
@@ -218,9 +216,9 @@
     /* #cnt0 */
     #cnt0{padding-top: 0px}
     #cnt0 .area h3{font-size: 40px;line-height: 40px;margin-bottom: 200px}
-    #cnt0 .area span{font-size: 20px;margin-top: -350px;left: 155px}
-    #cnt0 .area span:before{width: 30px;margin-bottom: 5px;margin-left: 75px}
-    #cnt0 .area img{top: 300px ;left: 20%;margin-top: 0px;width: 300px;height: 300px;}
+    #cnt0 .area span{font-size: 20px;margin-top: -350px;left: 36%}
+    #cnt0 .area span:before{width: 30px;margin-bottom: 5px;margin-left: 80px}
+    #cnt0 .area img{top: 300px ;left: 27%;margin-top: 0px;width: 300px;height: 300px;}
     #cnt0 .area p{font-size: 14px;padding-top: 160px;line-height: 28px}
     #cnt0 em{font-size: 12px;width:125px;height: 24px;line-height: 24px;margin: 0 auto;margin-top: 20px}
 
