@@ -1,33 +1,147 @@
 @charset "utf-8";
 /* 본문 */
 #content article{height: 0px}
-/* font style
-.title{font-size: 48px;text-align: center;margin-top: -210px} */
-
+.area{height: auto;}
 .title{font-size: 48px;text-align: center;}
 .title:after, .title2:after{content: "";display: block;width: 35px;height: 1px;background: #235b42;margin-left: 49%;margin-top: 10px}
 
 /* display:none */
-#indicator, .modal{display: none}
-.area{}
+#indicator{display: none}
 /* header */
 #header{background-color: #235b42;height: 120px;}
 #pcGnb{background-image: none}
-/* content */
+/*visual */
 #sub_content #visual{height: 400px;background: url("../images/menu/sub1_bg.jpg")no-repeat;margin-top: 120px}
 #sub_content #visual .area{color: #fff}
 #sub_content #visual .area h3{font-family: NotoB;font-size: 73px;padding-top: 100px}
 #sub_content #visual .area h3:after{content: "";display: block;width: 35px;height: 1px;background-color: #fff;margin-top: 18px;margin-left: 6px}
 #sub_content #visual .area p{font-size: 16px;line-height: 24px;padding-top: 24px}
 
-/* content */
+/* content1 */
 #sub1 .menu{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 70px;width: 1200px;margin-top: 70px}
-#sub1 .menu li{float: left;font-size: 23px;width: 295px;line-height: 46px;margin-top: 12px}
-
-#sub1 .menu .menu3{float: right}
-#sub1 .menu .menu1,#sub1 .menu .menu2{margin-left: 123px}
+#sub1 .menu li{float: left;font-size: 23px;line-height: 46px;margin-top: 12px;width: 290px;text-align: center}
+#sub1 .menu li.on:after{content: "";display: block;;width: 290px;height: 2px;background: #235b42;margin-top: 10px}
 #sub1 .menu li a{display: inline-block}
+#sub1 .menu .menu2{margin-left: 158px}
+#sub1 .menu .menu3{margin-left: 172px}
+#sub1 #food{margin-top: 100px}
+#sub1 #food:after{content: "";display: block;clear: both}
 
-#sub1 #salad li{float: left;margin-left: 163px}
-#salad .list4, #sub1 #salad .list7{margin-left: 0}
-#sub1 #salad li span{display: block;text-align: center;font-size: 20px;padding-top: 20px}
+#sub1 #food li{float: left;height: 438px;padding-top: 33px;box-sizing: border-box;margin-left: 172px}
+#sub1 #food .margin{margin-left: 0}
+#sub1 #food .mark{padding-top: 0}
+#sub1 #food li:hover a, #sub1 #food li a:focus, #sub1 #sandwich li:hover a, #sub1 #sandwich li a:focus{color: #235b42}
+#sub1 #food .list1 p, #sub1 #food .list2 p{width: 65px;height: 33px;font-size: 18px;color: #fff;text-align: center;line-height: 33px;border-radius: 30px}
+#sub1 #food .list1 p{background-color: #751619}
+#sub1 #food .list2 p{background-color: #235b42}
+#sub1 #food li span{display: block;text-align: center;font-size: 20px;padding: 10px 0 80px 0}
+#sub1 #food li img{width: 285px}
+/* content2 */
+#sub1 .menu{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 70px;width: 1200px;margin-top: 70px}
+#sub1 .menu li{float: left;font-size: 23px;line-height: 46px;margin-top: 12px;width: 290px;text-align: center}
+#sub1 .menu li.on:after{content: "";display: block;;width: 290px;height: 2px;background: #235b42;margin-top: 10px}
+#sub1 .menu li:hover, #sub1 .menu li a:focus{color: #235b42}
+#sub1 .menu li a{display: inline-block}
+#sub1 .menu .menu2{margin-left: 158px}
+#sub1 .menu .menu3{margin-left: 172px}
+
+#sub1 #sandwich{margin-top: 100px}
+#sub1 #sandwich:after{content: "";display: block;clear: both}
+#sub1 #sandwich li{float: left}
+#sub1 #sandwich .list1 p, #sub1 #sandwich .list2 p{width: 65px;height: 33px;font-size: 18px;color: #fff;text-align: center;line-height: 33px;border-radius: 30px}
+
+#sub1 #sandwich .list1 p,#sub1 #sandwich .list2 p{background-color: #235b42}
+
+#sub1 #sandwich .list2, #sub1 #sandwich .list5, #sub1 #sandwich .list6{margin-left: 158px}
+#sub1 #sandwich .list3{margin-left: 160px;margin-top: 2px}
+#sub1 #sandwich .list8, #sub1 #sandwich .list9{margin-left:  160px}
+#sub1 #sandwich li span{display: block;text-align: center;font-size: 20px;padding: 0 0 89px 0}
+
+/* modal */
+#mask,  #modal .md_cnt{position: fixed;z-index: 300;display: none;}
+#mask{top: 0;left: 0;right: 0;bottom: 0;background: rgba(0,0,0,.6)}
+#modal .md_cnt{width: 1180px;height: 480px;background: #fff;margin: 0 auto;border: 1px solid #3e4041}
+#modal div > *{position: absolute}
+#modal div h4, #modal div p, #modal div span{left: 420px}
+#modal div h4{left: 413px;font-size: 45px;top: 96px}
+#modal .md_cnt img{width: 320px;height: 320px;top: 15%;left: 35px}
+#modal div p{letter-spacing: 0.8px;width: 514px;top: 230px}
+#modal div span{display: block;font-size: 14px}
+#modal div .eng{color: #828282;top: 160px}
+#modal div .pri{color: inherit;top: 190px}
+#modal div table{right: 51px;bottom: 66px;color: #235b42;border-top: 1px solid #235b42;border-bottom: 1px solid #ccc}
+#modal div .close_btn{width: 15px;height: 16px;top: 0;left: 0}
+#modal div table th{padding: 0 20px;font-size: 14px}
+#modal div table th:first-child{padding: 0}
+#modal div table td{padding: 5px 45px;font-size: 13px;}
+#modal .md_close_btn{position: absolute;top: 30px;right: 30px}
+#modal .md_close_btn img{width: 16px;height: 15px}
+
+
+
+@media screen and (max-width: 1440px){
+    .area{margin: 0}
+    #visual .area{max-width: 1200px;background-size: cover}
+    #sub_content #visual .area{text-align: center}
+    #sub_content #visual .area h3{font-size: 63px;padding-top: 90px}
+    #sub_content #visual .area h3:after{display: none}
+    #sub_content #visual .area p{font-size: 13px;line-height: 26px;padding-top: 20px}
+    #sub1 .menu{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 70px;width: 1000px;margin-top: 70px}
+    #sub1 .menu li{font-size: 20px;line-height: 40px;margin-top: 18px;width: 250px;text-align: center}
+    #sub1 .menu li.on:after{width: 250px;height: 2px}
+}
+@media screen and (max-width: 1366px){
+    #visual .area{max-width: 1100px;}
+}
+@media screen and (max-width: 1280px){
+    #visual .area{max-width: 1000px;}
+    #sub1 .menu{height: 50px;width: 1000px;margin-top: 40px}
+    #sub1 .menu li{font-size: 20px;line-height:40px;margin-top: 10px;width: 300px;text-align: center}
+    #sub1 .menu li.on:after{content: "";display: block;width: 300px;height: 2px;background: #235b42;margin-top:0px}
+    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 50px}
+    #sub1 #food li{float: left;height: 438px;padding-top: 25px;box-sizing: border-box;margin-left: 125px}
+    #sub1 #food li img{width: 250px}
+    #sub1 #food li span{font-size: 17px}
+
+
+    /* modal */
+    #modal .md_cnt{width: 900px;height: 400px;background: #fff;margin: 0 auto;border: 1px solid #3e4041}
+    #modal .md_cnt img{width: 200px;height: 200px;top: 15%;left: 35px}
+
+}
+/* 
+#modal div > *{position: absolute}
+#modal div h4, #modal div p, #modal div span{left: 420px}
+#modal div h4{left: 413px;font-size: 45px;top: 96px}
+#modal div p{letter-spacing: 0.8px;width: 514px;top: 230px}
+#modal div span{display: block;font-size: 14px}
+#modal div .eng{color: #828282;top: 160px}
+#modal div .pri{color: inherit;top: 190px}
+#modal div table{right: 51px;bottom: 66px;color: #235b42;border-top: 1px solid #235b42;border-bottom: 1px solid #ccc}
+#modal div .close_btn{width: 15px;height: 16px;top: 0;left: 0}
+#modal div table th{padding: 0 20px;font-size: 14px}
+#modal div table th:first-child{padding: 0}
+#modal div table td{padding: 5px 45px;font-size: 13px;}
+#modal .md_close_btn{position: absolute;top: 30px;right: 30px}
+#modal .md_close_btn img{width: 16px;height: 15px}
+*/
+@media screen and (max-width: 767px){
+    #visual .area{max-width: 767px}
+    #sub_content #visual .area{text-align: center;color: #828282;margin-left: 13px}
+    #sub1 .menu{width: 400px;margin-top: 40px;margin-left: 50px}
+    #sub1 .menu li{font-size: 15px;line-height:24px;margin-top: 10px;width: 100px;text-align: center}
+    #sub1 .menu li.on:after{display: none}
+    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 38px}
+    #sub1 #food li{float: left;height: 400px;padding-top: 20px;box-sizing: border-box;margin-left: 130px}
+    #sub1 #food .margin{margin-left: 130px}
+    #sub1 #food .list1 p, #sub1 #food .list2 p{width: 60px;height: 30px;font-size: 15px;color: #fff;text-align: center;line-height: 30px}
+    
+    
+    
+
+
+}
+
+
+
+

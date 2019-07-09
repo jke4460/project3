@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
     <!--[if lt IE 9]>
         <script type="text/javascript" src="js/html5shiv.min.js"></script>
     <![endif]-->
 </head>
-<body id="main" body data-dep-one="1" data-dep-two="1">
+<body id="main" body data-dep-one="0" data-dep-two="0">
     <div id="skip">
         <a href="#main">본문 바로가기</a>
     </div>
@@ -43,10 +44,10 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="">이용방법</a>
+                        <a href="use/use.html">이용방법</a>
                         <ul class="dep2">
                             <li>
-                                <a href="">가든공방 이용방법</a>
+                                <a href="use/use.html">가든공방 이용방법</a>
                             </li>
                         </ul>
                     </li>
@@ -78,22 +79,20 @@
                         </ul>
                     </li>
                 </ul>
-                <button class="close_btn" type="button"><img src="images/common/close_btn.svg" alt="" width="44"
-                        height="44"></button>
             </nav>
             <nav id="mGnb">
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="menu/salad.html">
                             메뉴
                             <img src="images/common/plus_btn.svg" alt="" width="44" height="44">
                         </a>
                         <ul class="dep2">
                             <li>
-                                <a href="">가든 샐러드</a>
+                                <a href="menu/salad.html#menuTab">가든 샐러드</a>
                             </li>
                             <li>
-                                <a href="">가든 샌드위치</a>
+                                <a href="menu/sandwich.html#menuTab">가든 샌드위치</a>
                             </li>
                             <li>
                                 <a href="">베이커리&amp;음료</a>
@@ -101,7 +100,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="use/use.html">
                             이용방법
                             <img src="images/common/plus_btn.svg" alt="" width="44" height="44">
                         </a>
@@ -148,6 +147,7 @@
                         </ul>
                     </li>
                 </ul>
+                <button class="close_btn" type="button"><img src="images/common/close.png" alt="" width="16" height="15"></button>
             </nav>
         </div>
     </header>
@@ -224,17 +224,7 @@
                         저희는 가능한 현지에서 나는 재료들을 사용하고, 모든 샐러드드레싱은 재료 고유의 신선함을 살리기 위해 매장에서 직접 만듭니다.<br>
                         가든 공방만의 아주 특별하고 독특한 맛이 여러분의 사랑을 듬뿍 받기를 진심으로 바랍니다.
                     </p>
-                    <ul class="polygon">
-                        <li>
-                            <img src="images/main/polygon_1.png" alt="" class="poly1">
-                        </li>
-                        <li>
-                            <img src="images/main/polygon_2.png" alt="" class="poly2">
-                        </li>
-                        <li>
-                            <img src="images/main/polygon_3.png" alt="" class="poly3">
-                        </li>
-                    </ul>
+					<div class="polygon"><img src="images/main/polygon.jpg" width="334" height="338" alt=""></div>
                 </div>
             </div>
         </article>
@@ -324,52 +314,45 @@
             </div>
         </article>
         <article id="cnt4">
-            <!-- <div class="event1">
-                <div class="bg2"> 배경이미지는 article 태그에 작성해주면 되는데 .bg2는 왜 작성한건가요??-->
-                    <div class="main_txt area">
-                        <div class="cell">
-                            <h3 class="title2">1 MORNING EVENT</h3>
-                            <p>
-                                <span>10:00am 부터 11:00 am</span>까지<br>
-                                가든 공방 샐러드를 구매하신는 분에 한하여<br>
-                                아메리카노 혹은 플레인 스콘을<br>
-                                무료로 제공하고 있습니다.
-                            </p>
-                            <div class="circle right">
-                                <img src="images/main/icon_1.png" alt="">
-                                <p>
-                                    10:00am ~ 11:00 am<br>
-                                    Happy Hour
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                <!-- </div>
-            </div> -->
+			<div class="main_txt area">
+				<div class="cell">
+					<div class="m_event"><img src="images/main/m_event1bg.jpg" alt=""></div>
+					<h3 class="title2">1 MORNING EVENT</h3>
+					<p>
+						<span>10:00am 부터 11:00 am</span>까지<br>
+						가든 공방 샐러드를 구매하신는 분에 한하여<br>
+						아메리카노 혹은 플레인 스콘을<br>
+						무료로 제공하고 있습니다.
+					</p>
+					<div class="circle right">
+						<img src="images/main/icon_1.png" alt="">
+						<p>
+							10:00am ~ 11:00 am<br>
+							Happy Hour
+						</p>
+					</div>
+				</div>
+			</div>
         </article>
         <article id="cnt5">
-            <!-- <div class="event2">
-                <div class="bg1"></div>
-                <div class="bg2">배경이미지 -->
-                    <div class="main_txt area">
-                        <div class="cell">
-                            <h3 class="title2">2 CATERING EVENT</h3>
-                            <p>
-                                스포츠 행사부터 비즈니스 회의까지<br>
-                                다양한 이벤트 케이터링 서비스를 제공 합니다.<br>
-                                <span>7/1 부터 한달간</span> 케이터링 신청시<br> 신제품 샐러드가
-                                30%할인 됩니다.
-                            </p>
-                            <div class="circle right">
-                                <img src="images/main/icon_2.png" alt="">
-                                <p>
-                                    7/1~7/31<br>Happy Month
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                <!-- </div>
-            </div> -->
+			<div class="main_txt area">
+				<div class="cell">
+					<div class="m_event"><img src="images/main/m_event2bg.jpg" alt=""></div>
+					<h3 class="title2">2 CATERING EVENT</h3>
+					<p>
+						스포츠 행사부터 비즈니스 회의까지<br>
+						다양한 이벤트 케이터링 서비스를 제공 합니다.<br>
+						<span>7/1 부터 한달간</span> 케이터링 신청시<br> 신제품 샐러드가
+						30%할인 됩니다.
+					</p>
+					<div class="circle right">
+						<img src="images/main/icon_2.png" alt="">
+						<p>
+							7/1~7/31<br>Happy Month
+						</p>
+					</div>
+				</div>
+			</div>
         </article>
         <article id="cnt6">
             <div class="area">
@@ -442,10 +425,10 @@
                     <li class="list2"><a href="">개인정보 처리방침</a></li>
                     <li class="list3"><a href="">FOOD CAPITAL</a></li>
                 </ul>
-                <p>가든공방 주식회사사업자등록번호: 111-12-12345 통신판매업 신고번호 : 20151-2345</p>
+                <p>가든공방 주식회사사업자등록번호: 111-12-12345 <span>통신판매업 신고번호 : 20151-2345</span></p>
                 <p class="copy">Copyright &copy; garden gongbang All Rights Reserved</p>
             </div>
-            <ul class="sns">
+            <ul class="sns clearfix">
                 <li class="twitter">
                     <a href=""><img src="images/common/sns_twitter_1.png" alt="트위터"></a>
                 </li>

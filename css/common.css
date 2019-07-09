@@ -29,7 +29,7 @@ h1, h2, h3, h4, em, strong, button{font-weight: normal;font-family: inherit;colo
 a:link, a:visited, a:hover, a:active{color: inherit;text-decoration: none;}
 button{cursor: pointer;border: none;background: none}
 em, strong{font-style: normal}
-img{vertical-align: middle}
+img{vertical-align: top;max-width: 100%;height: auto}
 nav, header, section, article, footer{display: block}
 ul{list-style: none}
 
@@ -39,11 +39,10 @@ ul{list-style: none}
 .p_a{position: absolute}
 .f_r{float: right}
 .f_l{float: left;}
-.clearfix{content: "";display: block;clear: both}
+.clearfix:after{content: "";display: block;clear: both}
 /* common */
 body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: #2b2b2b}
 .area{width: 1200px;height: 920px;margin: 0 auto}
-
 
 /* skip */
 #skip a{position: absolute;top: 0;left: -9999px;z-index: 1000;height: 50px;line-height: 50px}
@@ -76,7 +75,7 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
 #content article{height: 920px;}
 
 /* footer */
-#footer{height: 190px;background: #fff;color: #ccc}
+#footer{height: 190px;background: #fff;color: #ccc;border-top: 1px solid}
 #footer .area.wrap{position: relative;width: 1005px;height: 76px;margin-top: 56px}
 #footer .area ul li{float: left}
 #footer .area .foot_box{top: 0;margin-left: 290px}
@@ -94,3 +93,18 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
 
 /* transition */
 #pcGnb > ul > li > a,#footer .area .foot_link li a, #pcGnb ul li ul li a{transition: all .6s}
+
+
+/* 모바일 네비게이션 */
+@media screen and (max-width: 768px) {
+    #mGnb{position: fixed;bottom: 100%;right: 0;height: 100%;background: #235b42;width: 300px;color: #2b2b2b;background: #fff;float: right}
+    #mGnb > ul >li{border-bottom: 1px solid #ccc;padding: 5px 10px;overflow: hidden}
+    #mGnb ul li ul{max-height: 0;transition: max-height 0.5s}
+    #mGnb ul li.on ul{max-height: 800px;}
+    #mGnb > ul >li > a{display: block;font-size: 18px;height: 60px;line-height: 60px}
+    #mGnb > ul >li:first-child{margin-top: 50px}
+    #mGnb ul li ul li a{display: inline-block;font-size: 15px;padding: 5px 0}
+    #mGnb > ul >li > a img{float: right;margin-top: 18px}
+    .close_btn{position: absolute;right: 20px;top: 20px}
+}
+
