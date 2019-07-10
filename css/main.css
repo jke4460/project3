@@ -213,7 +213,7 @@
     #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;}/* margin-bottom: 200px */
     #cnt0 .area span{font-size: 20px;margin-top: -350px;left: 36%}
     #cnt0 .area span:before{width: 30px;margin-bottom: 5px;margin-left: 80px}
-    #cnt0 .area img{top: 250px;left: 50%;margin-left: -135px;margin-top: 0px;width: 270px;height: 270px;}
+    #cnt0 .area img{top: 205px;left: 50%;margin-left: -135px;margin-top: 0px;width: 270px;height: 270px;}
     #cnt0 .area p{position: relative;font-size: 14px;padding-top: 255px;line-height: 26px;z-index: 1}
     #cnt0 em{font-size: 12px;width:125px;height: 24px;line-height: 24px;margin: 0 auto;margin-top: 20px}
 
@@ -225,11 +225,12 @@
 	#cnt1 .polygon img{width: 250px;}
 
     /* #cnt2 */
+    #cnt2 h3, #cnt3 h3{margin-top: -60px}
     #cnt2,  #cnt3{width: 100%;background: none;color: #2b2b2b }
    #cnt2 .txt h4, #cnt3 .txt h4{font-size: 25px;margin-bottom: 30px}
    .txt h4:after{top: 40px;width: 30px}
    .txt p{line-height: 28px;font-size: 15px}
-   .slider{width: 350px;margin-top: 0px}
+   .slider{width: 350px;margin-top: 13px}
    .slider ul{padding-top: 10px}
    .slider ul li{width: 350px}
    .slider li img, .slider ul li .txt, .right .slider li img, .right .slider ul li .txt{float: none;}

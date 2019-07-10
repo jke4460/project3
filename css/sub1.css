@@ -128,7 +128,8 @@
 @media screen and (max-width: 767px){
     #header{height: 100px;background: none}
     #visual .area{max-width: 767px}
-    #sub_content #visual .area{text-align: center;color: #828282;margin-left: 13px}
+    #sub_content #visual{background-image: url("../images/menu/m_menu_bg.jpg");background-size: cover}
+    #sub_content #visual .area{text-align: center;color: #fff;margin-left: 13px}
     #sub1 .menu{width: 400px;margin-top: 40px;margin-left: 41.5px}
     #sub1 .menu li{font-size: 15px;line-height:30px;margin-top: 10px;width: 100px;text-align: center}
     #sub1 .menu li.on:after{width: 100px;height: 2px;margin-top:8px}

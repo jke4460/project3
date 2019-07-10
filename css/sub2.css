@@ -99,9 +99,28 @@
 }
 
 @media screen and (max-width: 767px){
+
     #header{height: 100px;background: none}
     #visual .area{max-width: 767px;text-align: center}
-    #sub2_content #visual{height: 300px;margin-top: 50px;background: url("../images/use/sub2_bg.jpg")no-repeat;color: #fff}
+    #sub2_content #visual{height: 300px;margin-top: 50px;background: url("../images/use/m_bg.jpg")no-repeat;color: #fff}
+    #sub2_content #visual p{width: 400px}
+    #sub2 .vis1{background-image: url("../images/use/m_bg2.jpg")no-repeat fixed}
+    #sub2 .vis1 .icon{height: 200px;background:#ffffff;margin-top: 100px;margin-left: 0px;width: 483px}
+    #sub2 .vis1 .icon li{width: 150px;padding-top: 40px}
+    #sub2 .vis1 .icon li span{font-size: 13px;padding-top: 20px}
+    #sub2 .vis2 .box{margin-left: 0px}
+    #sub2 .vis2 .box li{width: 280px;float: none}
+    #sub2 .vis3{background: url("../images/use/m_bg3.jpg")no-repeat fixed ;left: 0;right: 0}
+
+
+    /* 
+    #sub2 .vis2 .box li img{height: auto;width: 280px}
+    #sub2 .vis2 .box li .txt{height: 210px;width: 280px;box-sizing: border-box;padding-left: 10px}
+    #sub2 .vis2 .box li .txt strong{font-size: 20px;margin-top: 20px}
+    #sub2 .vis2 .box li .txt span{font-size: 13px}
+    #sub2 .vis2 .box li .txt p{font-size: 14px;line-height: 22px;width: 250px;margin-top: 10px;letter-spacing: 0.5px}
+    
+    */
 
 }
 
