@@ -94,48 +94,65 @@
     #visual .area{max-width: 1100px;}
 }
 @media screen and (max-width: 1280px){
-    #visual .area{max-width: 1000px;}
+    #visual .area{max-width: 1000px;margin-left: 26.5px}
+    #sub_content #visual{height: 300px;margin-top: 50px}
+    #sub_content #visual .area h3{font-size: 50px;padding-top: 90px}
     #sub1 .menu{height: 50px;width: 1000px;margin-top: 40px}
     #sub1 .menu li{font-size: 20px;line-height:40px;margin-top: 10px;width: 300px;text-align: center}
     #sub1 .menu li.on:after{content: "";display: block;width: 300px;height: 2px;background: #235b42;margin-top:0px}
     #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 50px}
-    #sub1 #food li{float: left;height: 438px;padding-top: 25px;box-sizing: border-box;margin-left: 125px}
+    #sub1 #food{padding: 0 20px;box-sizing: border-box}
+    #sub1 #food li{float: left;height: 438px;padding-top: 25px;box-sizing: border-box;margin-left: 100px}
     #sub1 #food li img{width: 250px}
     #sub1 #food li span{font-size: 17px}
 
 
     /* modal */
-    #modal .md_cnt{width: 900px;height: 400px;background: #fff;margin: 0 auto;border: 1px solid #3e4041}
-    #modal .md_cnt img{width: 200px;height: 200px;top: 15%;left: 35px}
+    #modal .md_cnt{width: 900px;height: 400px}
+    #modal .md_cnt img{width: 200px;height: 200px;top: 23%;left: 35px}
+    #modal .md_close_btn img{width: 13px;height: auto}
+    #modal div h4, #modal div p, #modal div span{left: 296px}
+    #modal div h4{left: 290px;font-size: 35px;top: 79px}
+    #modal div p{width: 500px;top: 196px;font-size: 15px;line-height: 23px}
+    #modal div span{font-size: 13px}
+    #modal div .eng{top: 135px}
+    #modal div .pri{top: 160px}
+    #modal div table{right: 116px;bottom: 60px}
+    #modal div table th{padding: 0 10px;font-size: 13px}
+    #modal div table td{padding: 0px 25px;font-size: 13px;}
+    #modal .md_close_btn{position: absolute;top: 30px;right: 30px}
+
 
 }
-/* 
-#modal div > *{position: absolute}
-#modal div h4, #modal div p, #modal div span{left: 420px}
-#modal div h4{left: 413px;font-size: 45px;top: 96px}
-#modal div p{letter-spacing: 0.8px;width: 514px;top: 230px}
-#modal div span{display: block;font-size: 14px}
-#modal div .eng{color: #828282;top: 160px}
-#modal div .pri{color: inherit;top: 190px}
-#modal div table{right: 51px;bottom: 66px;color: #235b42;border-top: 1px solid #235b42;border-bottom: 1px solid #ccc}
-#modal div .close_btn{width: 15px;height: 16px;top: 0;left: 0}
-#modal div table th{padding: 0 20px;font-size: 14px}
-#modal div table th:first-child{padding: 0}
-#modal div table td{padding: 5px 45px;font-size: 13px;}
-#modal .md_close_btn{position: absolute;top: 30px;right: 30px}
-#modal .md_close_btn img{width: 16px;height: 15px}
-*/
+
 @media screen and (max-width: 767px){
+    #header{height: 100px;background: none}
     #visual .area{max-width: 767px}
     #sub_content #visual .area{text-align: center;color: #828282;margin-left: 13px}
-    #sub1 .menu{width: 400px;margin-top: 40px;margin-left: 50px}
-    #sub1 .menu li{font-size: 15px;line-height:24px;margin-top: 10px;width: 100px;text-align: center}
-    #sub1 .menu li.on:after{display: none}
+    #sub1 .menu{width: 400px;margin-top: 40px;margin-left: 41.5px}
+    #sub1 .menu li{font-size: 15px;line-height:30px;margin-top: 10px;width: 100px;text-align: center}
+    #sub1 .menu li.on:after{width: 100px;height: 2px;margin-top:8px}
     #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 38px}
-    #sub1 #food li{float: left;height: 400px;padding-top: 20px;box-sizing: border-box;margin-left: 130px}
-    #sub1 #food .margin{margin-left: 130px}
-    #sub1 #food .list1 p, #sub1 #food .list2 p{width: 60px;height: 30px;font-size: 15px;color: #fff;text-align: center;line-height: 30px}
-    
+    #sub1 #food{margin-top: 40px;padding: 0;margin-left: 12.5px}
+    #sub1 #food li{float: left;height: 400px;padding-top: 20px;box-sizing: border-box;margin-left: 108px}
+    #sub1 #food .margin{margin-left: 108px}
+    #sub1 #food .list1 p, #sub1 #food .list2 p{width: 60px;height: 30px;font-size: 13px;color: #fff;text-align: center;line-height: 30px}
+
+    /* modal */
+    #modal .md_cnt{width: 400px;height: 700px;text-align: center}
+    #modal .md_cnt img{width: 300px;height: 300px;top: 25%;left: 50px}
+    #modal .md_close_btn img{width: 13px;height: auto}
+    #modal div h4, #modal div p, #modal div span{left: 0px}
+    #modal div h4{left: 50px;font-size: 30px;top: 54px;width: 300px}
+    #modal div p{width: 300px;top:73%;font-size: 13px;line-height: 23px;left: 50px}
+    #modal div span{font-size: 13px;width: 200px;left: 100px}
+    #modal div .eng{top: 105px}
+    #modal div .pri{top: 135px}
+    #modal div table{right: 50px;bottom: 60px;width: 350px;display: none}
+    #modal div table th{padding: 0 5px;font-size: 12px}
+    #modal div table td{padding: 0px 20px;font-size: 12px;}
+    #modal .md_close_btn{top: 20px;right: 20px}
+
     
     
 

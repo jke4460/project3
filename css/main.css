@@ -3,7 +3,7 @@
 #content article{height: 920px}
 /* font style
 .title{font-size: 48px;text-align: center;margin-top: -210px} */
-.title{font-size: 48px;text-align: center;}
+.title{font-size: 48px;text-align: center}
 .title:after, .title2:after{content: "";display: block;width: 35px;height: 1px;background: #235b42;margin-left: 49%;margin-top: 10px}
 
 /* indicator */
@@ -27,7 +27,7 @@
 #content > article > .area{display: table;height: 100%}
 .cell{display: table-cell;vertical-align: middle}
 #cnt0{color: #fff;background: url("../images/main/main_linebg.jpg") repeat-y center top;padding-top: 90px;box-sizing: border-box}
-#cnt0 h3{font-family: NotoB;font-size: 73px;padding-top: 210px}
+#cnt0 h3{font-family: NotoB;font-size: 73px;padding-top: 0px}
 #cnt0 .area span{position: absolute;font-family: NotoT;font-size: 30px;margin-top: -290px}
 #cnt0 .area span:before{content: "";display: block;width: 35px;height: 1px;background: #fff;margin-bottom: 10px}
 #cnt0 .area p{line-height: 32px;margin-top: 51px}
@@ -50,6 +50,8 @@
 
 /* #cnt2, #cnt3 */
 #cnt2{background: url("../images/main/main_bg3.png")no-repeat left 0 center;}
+#cnt2 h3{margin-top: -178px}
+#cnt3 h3{margin-top: -182px}
 #cnt3{background: url("../images/main/main_bg4.png")no-repeat right 0 center;}
 #cnt2 ul li, #cnt3 ul li{float: left}
 #cnt2 .slider, #cnt3 .slider{color: #fff}
