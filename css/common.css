@@ -106,6 +106,6 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
     #mGnb > ul >li:first-child{margin-top: 50px}
     #mGnb ul li ul li a{display: inline-block;font-size: 15px;padding: 5px 0}
     #mGnb > ul >li > a img{float: right;margin-top: 18px}
-    .close_btn{position: absolute;right: 20px;top: 20px}
+    .close_btn{position: absolute;right: 20px;top: 20px;}
 }
 

@@ -72,6 +72,8 @@
 #cnt3 .txt h4:after{right: 0;}
 #cnt3 .txt{text-align: right}
 .control{position: absolute;left: 50%;top: 200px;margin-left: -39px;}
+#cnt3 .control{margin-left: 100px;}
+
 .control .next{margin-left: 36px}
 
 /* 공통 */
@@ -164,7 +166,6 @@
     .txt p{line-height: 28px;font-size: 15px}
     .slider{width: 920px;margin-top: 50px;}/* overflow: hidden;height: 700px;margin-top: -100px */
 	.slider ul li{width: 920px;height: 435px}
-
     /* cnt4 */
     .title2{font-size: 30px}
     .title2:after{background-color: #fff}

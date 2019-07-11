@@ -24,7 +24,7 @@
 #sub2 .vis1 .icon{height: 247px;background: #fff;margin-top: 44px}
 #sub2 .vis1 .icon li{float: left;width: 399px;padding-top: 58px}
 
-#sub2 .vis1 .icon li img, #sub2 .vis2 .box li .txt span{transition: all 0.3s}
+#sub2 .vis1 .icon li img, #sub2 .vis2 .box li .txt span,#sub2 .vis2 .box li img {transition: all 0.3s}
 
 #sub2 .vis1 .icon li.on img{margin-top: -30px}
 #sub2 .vis1 .icon .list1{border-left: none}
@@ -32,8 +32,10 @@
 
 #sub2 .vis2 .subTit{margin-top: 250px}
 #sub2 .vis2{background: #f5f2ec;margin-top: 44px;padding-bottom: 82px}
-#sub2 .vis2 .box li{float: left;text-align: left;background: #fff;border-bottom: 2px solid #235b42}
-#sub2 .vis2 .box li img{height: 204px;width: 375px;overflow: hidden}
+#sub2 .vis2 .box li{float: left;text-align: left;background: #fff;border-bottom: 2px solid #235b42;width: 375px;height: 439px;overflow: hidden}
+
+#sub2 .vis2 .box li.on img{transform: scale(1.1)}
+
 #sub2 .vis2 .box .list2{border-bottom-color: #751619}
 #sub2 .vis2 .box .list3{border-bottom-color: #deae42}
 #sub2 .vis2 .box .list2, #sub2 .vis2 .box .list3{margin-left: 37px}
@@ -80,7 +82,7 @@
     #sub2 .vis1 .circle .cnTxt{margin-left: 0px;padding-top: 72px}
     #sub2 .vis1 .circle h4, #sub2 .vis3 h4{font-size: 30px;line-height: 40px}
     #sub2 .vis1 .circle p, #sub2 .vis3 p{font-size: 14px;padding-top: 10px}
-    #sub2 .vis1 .icon{height: 200px;background:rgb(224, 170, 170);margin-top: 100px;margin-left: 45px}
+    #sub2 .vis1 .icon{height: 200px;background:#fff;margin-top: 100px;margin-left: 45px}
     #sub2 .vis1 .icon li{width: 300px;padding-top: 40px}
     #sub2 .vis1 .icon li span{display: block;font-size: 15px;padding-top: 27px}
     #sub2 .vis1 .icon li.on img{margin-top: -20px}
@@ -106,23 +108,23 @@
 
     #sub2_content #visual h3{font-size: 50px;padding-top: 60px}
     #sub2_content #visual h3:after{width: 30px;height: 1px;margin-top: 10px}
-    #sub2_content #visual p{font-size: 14px;line-height: 24px;margin-top: 41px}
+    #sub2_content #visual p{font-size: 13px;line-height: 24px;margin-top: 30px}
     #sub2_content .subTit{font-size: 40px;padding-top: 50px}
     #sub2 .subTxt{font-size: 15px;padding: 20px 0 50px;}
     #sub2 .vis1{height: 300px;}
 
-    #sub2 .vis1 .circle{width: 200px;height: 200px;margin-left: -94.5px;top: 25px}
-    #sub2 .vis1 .circle .cnTxt{margin-left: 0px;padding-top: 72px}
+    #sub2 .vis1 .circle{width: 200px;height: 200px;margin-left: -94.5px;top: 25px;background-color: rgba(43, 43, 43,0)}
+    #sub2 .vis1 .circle .cnTxt{margin-left: 0px;padding-top: 0px}
     #sub2 .vis1 .circle h4, #sub2 .vis3 h4{font-size: 30px;line-height: 40px}
     #sub2 .vis1 .circle p, #sub2 .vis3 p{font-size: 14px;padding-top: 10px}
-    #sub2 .vis1 .icon{height: 200px;margin-top: 0px;margin-left: 5px;width: 483px}
-    #sub2 .vis1 .icon li{width: 161px;padding-top: 40px}
-    #sub2 .vis1 .icon li span{font-size: 13px;padding-top: 27px}
+    #sub2 .vis1 .icon{height: 100px;margin-top: 0px;margin-left: 5px;width: 483px}
+    #sub2 .vis1 .icon li{width: 161px;margin-top: 20px}
+    #sub2 .vis1 .icon li span{font-size: 13px;padding-top: 30px}
     #sub2 .vis1 .icon li.on img{margin-top: 0px}
 
-    #sub2 .vis2 .box{margin-left: 0;}
-    #sub2 .vis2 .box li{width: 280px;float: none;margin-left: 101.5px}
-    #sub2 .vis2 .box .list2, #sub2 .vis2 .box .list3{margin-left:101.5px;margin-top: 30px}
+    #sub2 .vis2 .subTit{margin-top: 150px}
+    #sub2 .vis2 .box .list1,#sub2 .vis2 .box .list2, #sub2 .vis2 .box .list3{margin-left:101.5px;margin-top: 30px}
+    #sub2 .vis2 .box  li{height: 350px;}
     #sub2 .vis2 .box li img{height: auto;width: 280px}
     #sub2 .vis2 .box li .txt{height: 210px;width: 280px;box-sizing: border-box;padding-left: 0px;text-align: center}
     #sub2 .vis2 .box li .txt strong{font-size: 20px;margin-top: 20px}
@@ -134,7 +136,7 @@
     #sub2 .vis3 .cnTxt{margin-left: -480px;padding-top:95px}
     #sub2 .vis3{background-size: cover}
     .area.wrap{margin-left: 0px}
-    #sub2 .vis3 .cnTxt{position: static;left: 0%;margin-left: 0px;padding-top: 130px}
+    #sub2 .vis3 .cnTxt{position: static;left: 0%;margin-left: 0px;padding-top: 100px}
     
     
     /* 
