@@ -49,6 +49,20 @@ $(document).ready(function () {
 	$('#sub1 .area .menu li a').on('click', function () {
 		$(this).parent().addClass('on').siblings().removeClass('on');
 	});
+	/* sub2page */
+	$('#sub2 .icon li').on('mouseenter', function () {
+		$(this).addClass('on');
+	});
+	$('#sub2 .icon li').on('mouseleave', function(){
+		$(this).removeClass('on');
+	});
+	$('.box li').on('mouseenter', function () {
+		$(this).addClass('on');
+	});
+	$('.box li').on('mouseleave', function () {
+		$(this).removeClass('on');
+	});
+
 });
 
 
