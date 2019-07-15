@@ -50,7 +50,7 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
 
 /* header */
 #header{position: absolute;top: 0;left: 0;width: 100%;height: 90px;color: #fff;z-index: 100}
-#header .logo{float: left;padding-top: 35px}
+#header .logo{float: left;padding-top: 35px;margin-top: -6.5px}
 
 
 /* {display: none}초기화면에서 숨길 컨텐츠 */
@@ -59,9 +59,9 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
 
 /* navigation */
 .head_top{width: 1200px;z-index: 500;height: 90px;margin: 0 auto}
-.head_top h1{margin-right: 263px}
+.head_top h1{margin-right: 263px;}
 #pcGnb{position: relative;float: left;}
-#pcGnb >ul{position: relative;font-size: 18px;width: 450px;height: 52px;float: left;margin-top: 45px}
+#pcGnb >ul{position: relative;font-size: 18px;width: 450px;height: 52px;float: left;margin-top: 18px}
 #pcGnb ul li a{display: block;}
 #pcGnb > ul > li{position: relative;float: left;padding-right: 45px;}
 #pcGnb > ul > li:last-child{padding-right: 0;}
@@ -102,9 +102,9 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
     #mGnb > ul >li{border-bottom: 1px solid #ccc;padding: 5px 10px;overflow: hidden}
     #mGnb ul li ul{max-height: 0;transition: max-height 0.5s}
     #mGnb ul li.on ul{max-height: 800px;}
-    #mGnb > ul >li > a{display: block;font-size: 18px;height: 60px;line-height: 60px}
+    #mGnb > ul >li > a{display: block;font-size: 18px;height: 60px;line-height: 60px;padding-left: 30px;font-family: NotoB}
     #mGnb > ul >li:first-child{margin-top: 50px}
-    #mGnb ul li ul li a{display: inline-block;font-size: 15px;padding: 5px 0}
+    #mGnb ul li ul li a{display: inline-block;font-size: 15px;padding: 5px 30px}
     #mGnb > ul >li > a img{float: right;margin-top: 18px}
     .close_btn{position: absolute;right: 20px;top: 20px;}
 }

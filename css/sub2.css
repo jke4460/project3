@@ -5,11 +5,11 @@
 /* display:none */
 #indicator{display: none}
 /* header */
-#header{background-color: #235b42;height: 120px;}
+#header{background-color: #235b42;height: 90px;}
 #pcGnb{background-image: none}
 #sub2_content{text-align: center;margin: 0 auto}
 #sub2_content .area{height: auto}
-#sub2_content #visual{height: 400px;margin-top: 120px;background: url("../images/use/sub2_bg.jpg")no-repeat;color: #fff}
+#sub2_content #visual{height: 400px;margin-top: 90px;background: url("../images/use/sub2_bg.jpg")no-repeat;color: #fff}
 #sub2_content #visual h3{font-size: 65px;font-family: NotoB;letter-spacing: 3.65px;padding-top: 65px}
 #sub2_content #visual h3:after{content: "";display: block;width: 35px;height: 1px;background: #fff;margin-top: 41px}
 #sub2_content #visual p{font-size: 15px;line-height: 24px;margin-top: 41px}
@@ -104,11 +104,9 @@
     #header{height: 100px;background: none}
     #visual .area{max-width: 767px;text-align: center}
     #sub2_content #visual{height: 300px;margin-top: 50px;background: url("../images/use/m_bg.jpg")no-repeat;color: #fff}
-    #sub2_content #visual p{width: 400px;margin-left: 41.5px}
-
-    #sub2_content #visual h3{font-size: 50px;padding-top: 60px}
+    #sub2_content #visual h3{font-size: 40px;padding-top: 60px}
     #sub2_content #visual h3:after{width: 30px;height: 1px;margin-top: 10px}
-    #sub2_content #visual p{font-size: 13px;line-height: 24px;margin-top: 30px}
+    #sub2_content #visual p{font-size: 13px;line-height: 23px;margin-top: 30px;width: 400px;margin-left: 41.5px}
     #sub2_content .subTit{font-size: 40px;padding-top: 50px}
     #sub2 .subTxt{font-size: 15px;padding: 20px 0 50px;}
     #sub2 .vis1{height: 300px;}
@@ -120,7 +118,7 @@
     #sub2 .vis1 .icon{height: 100px;margin-top: 0px;margin-left: 5px;width: 483px}
     #sub2 .vis1 .icon li{width: 161px;margin-top: 20px}
     #sub2 .vis1 .icon li span{font-size: 13px;padding-top: 30px}
-    #sub2 .vis1 .icon li.on img{margin-top: 0px}
+    #sub2 .vis1 .icon li.on img{margin-top: -10px}
 
     #sub2 .vis2 .subTit{margin-top: 150px}
     #sub2 .vis2 .box .list1,#sub2 .vis2 .box .list2, #sub2 .vis2 .box .list3{margin-left:101.5px;margin-top: 30px}

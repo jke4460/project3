@@ -8,10 +8,10 @@
 /* display:none */
 #indicator{display: none}
 /* header */
-#header{background-color: #235b42;height: 120px;}
+#header{background-color: #235b42;height: 90px;}
 #pcGnb{background-image: none}
 /*visual */
-#sub_content #visual{height: 400px;background: url("../images/menu/sub1_bg.jpg")no-repeat;margin-top: 120px}
+#sub_content #visual{height: 400px;background: url("../images/menu/sub1_bg.jpg")no-repeat;margin-top: 90px}
 #sub_content #visual .area{color: #fff}
 #sub_content #visual .area h3{font-family: NotoB;font-size: 73px;padding-top: 100px}
 #sub_content #visual .area h3:after{content: "";display: block;width: 35px;height: 1px;background-color: #fff;margin-top: 18px;margin-left: 6px}
@@ -140,15 +140,15 @@
     #sub1 #food .list1 p, #sub1 #food .list2 p{width: 60px;height: 30px;font-size: 13px;color: #fff;text-align: center;line-height: 30px}
 
     /* modal */
-    #modal .md_cnt{width: 400px;height: 700px;text-align: center}
+    #modal .md_cnt{width: 400px;height: 600px;text-align: center}
     #modal .md_cnt img{width: 300px;height: 300px;top: 25%;left: 50px}
     #modal .md_close_btn img{width: 13px;height: auto}
     #modal div h4, #modal div p, #modal div span{left: 0px}
     #modal div h4{left: 50px;font-size: 30px;top: 54px;width: 300px}
-    #modal div p{width: 300px;top:73%;font-size: 13px;line-height: 23px;left: 50px}
+    #modal div p{width: 300px;top:80%;font-size: 13px;line-height: 23px;left: 50px}
     #modal div span{font-size: 13px;width: 200px;left: 100px}
     #modal div .eng{top: 105px}
-    #modal div .pri{top: 135px}
+    #modal div .pri{top: 126px}
     #modal div table{right: 50px;bottom: 60px;width: 350px;display: none}
     #modal div table th{padding: 0 5px;font-size: 12px}
     #modal div table td{padding: 0px 20px;font-size: 12px;}
