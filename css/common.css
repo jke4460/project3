@@ -69,7 +69,8 @@ body{font-family: NotoR, "맑은 고딕", "Malgun Gothic";font-size: 1em;color: 
 #pcGnb > ul > li.on > a, #pcGnb > ul > li > a:focus, #pcGnb > ul > li > a:hover{color: #f5b43d}
 #pcGnb .dep2{position: absolute;font-size: 15px;top: 52px;left: 0;width: 130px;padding-top: 8px;line-height: 30px}
 #pcGnb ul li ul li:hover a, #pcGnb ul li ul li a:focus{color: #f5b43d}
-
+/* 서브페이지 navigation */
+#header.sub_head .logo{padding-top: 24px;}
 
 
 /* content */
