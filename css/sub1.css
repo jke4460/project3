@@ -11,7 +11,7 @@
 #header{background-color: #235b42;height: 90px;}
 #pcGnb{background-image: none}
 /*visual */
-#sub_content #visual{height: 400px;background: url("../images/menu/sub1_bg.jpg")no-repeat;margin-top: 90px}
+#sub_content #visual{height: 400px;background: url("../images/menu/sub1_bg.jpg")no-repeat;margin-top: 75px}
 #sub_content #visual .area{color: #fff}
 #sub_content #visual .area h3{font-family: NotoB;font-size: 73px;padding-top: 100px}
 #sub_content #visual .area h3:after{content: "";display: block;width: 35px;height: 1px;background-color: #fff;margin-top: 18px;margin-left: 6px}
@@ -78,9 +78,17 @@
 #modal .md_close_btn img{width: 16px;height: 15px}
 
 
+@media screen and (max-width: 1550px){
+    .area{width: 930px;}
+    #sub1 .menu{width: 930px;}
+    #sub1 .menu li{width: 200px}
+    #sub1 .menu li.on:after{width: 200px;margin-top: 10px}
+    #sub1 #food li {padding-top: 30px;margin-left: 37px;}
+}
+
 
 @media screen and (max-width: 1440px){
-    .area{margin: 0}
+    .area{margin: 0 auto}
     #visual .area{max-width: 1200px;background-size: cover}
     #sub_content #visual .area{text-align: center}
     #sub_content #visual .area h3{font-size: 63px;padding-top: 90px}
@@ -93,16 +101,18 @@
 @media screen and (max-width: 1366px){
     #visual .area{max-width: 1100px;}
 }
-@media screen and (max-width: 1280px){
-    #visual .area{max-width: 1000px;margin-left: 26.5px}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+    .area{width: 930px;margin: 0 auto}
+    #visual .area{max-width:1000px}
     #sub_content #visual{height: 300px;margin-top: 50px}
     #sub_content #visual .area h3{font-size: 50px;padding-top: 90px}
-    #sub1 .menu{height: 50px;width: 1000px;margin-top: 40px}
-    #sub1 .menu li{font-size: 20px;line-height:40px;margin-top: 10px;width: 300px;text-align: center}
-    #sub1 .menu li.on:after{content: "";display: block;width: 300px;height: 2px;background: #235b42;margin-top:0px}
-    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 50px}
-    #sub1 #food{padding: 0 20px;box-sizing: border-box}
-    #sub1 #food li{float: left;height: 438px;padding-top: 25px;box-sizing: border-box;margin-left: 100px}
+    #sub1 .menu{height: 50px;width: 1280px;margin-top: 40px}
+    #sub1 .menu li{margin-top: 5px;width: 200px}
+    #sub1 .menu li.on:after{width: 200px;margin-top:3px}
+    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 155px}
+    #sub1 #food{padding: 0 20px}
+    #sub1 #food li{padding-top: 10px;margin-left: 70px}
     #sub1 #food li img{width: 250px}
     #sub1 #food li span{font-size: 17px}
 
@@ -125,18 +135,31 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+    .area{width: 100%}
+    #sub1 .menu{width: 1024px}
+    #sub1 .menu li{width: 220px}
+    #sub1 .menu li.on:after{width: 220px;margin-top:11px}
+    #sub1 #food li {padding-top: 26px;margin-left: 83px}
+}
+
 @media screen and (max-width: 767px){
+
     #header{height: 100px;background: none}
     #visual .area{max-width: 767px}
-    #sub_content #visual{background-image: url("../images/menu/m_menu_bg.jpg");background-size: cover}
-    #sub_content #visual .area{text-align: center;color: #fff;margin-left: 13px}
-    #sub1 .menu{width: 400px;margin-top: 40px;margin-left: 41.5px}
-    #sub1 .menu li{font-size: 15px;line-height:30px;margin-top: 10px;width: 100px;text-align: center}
-    #sub1 .menu li.on:after{width: 100px;height: 2px;margin-top:8px}
+    #sub_content #visual{background-image: url("../images/menu/m_menu_bg.jpg");background-size: cover;height: 300px}
+    #sub_content #visual .area{text-align: center;color: #fff;margin-top: -5px}
+    #sub_content #visual .area h3{font-size: 63px;padding-top: 60px;}
+    #sub1 .menu{width: 767px;margin-top: 30px}
+    #sub1 .menu li{font-size: 18px}
+    #sub1 .menu li.on:after{margin-top:11px}
     #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 38px}
     #sub1 #food{margin-top: 40px;padding: 0;margin-left: 12.5px}
-    #sub1 #food li{float: left;height: 400px;padding-top: 20px;box-sizing: border-box;margin-left: 108px}
-    #sub1 #food .margin{margin-left: 108px}
+    #sub1 #food li{float: left;height: 400px;padding-top: 20px;box-sizing: border-box;margin-left:30px;}
+    #sub1 #food .list9.last{margin-left: 16px}
+    #sub1 #food li img{width: 230px;}
+    #sub1 #food li span{font-size: 18px}
+    #sub1 #food .margin{margin-left: 0px}
     #sub1 #food .list1 p, #sub1 #food .list2 p{width: 60px;height: 30px;font-size: 13px;color: #fff;text-align: center;line-height: 30px}
 
     /* modal */
