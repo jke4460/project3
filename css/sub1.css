@@ -79,8 +79,8 @@
 
 
 @media screen and (max-width: 1550px){
-    .area{width: 930px;}
-    #sub1 .menu{width: 930px;}
+    .area{width: 1550px;}
+    #sub1 .menu{width: 1550px;}
     #sub1 .menu li{width: 200px}
     #sub1 .menu li.on:after{width: 200px;margin-top: 10px}
     #sub1 #food li {padding-top: 30px;margin-left: 37px;}
@@ -88,31 +88,39 @@
 
 
 @media screen and (max-width: 1440px){
-    .area{margin: 0 auto}
+    .area{margin: 0 auto;max-width: 1200px}
     #visual .area{max-width: 1200px;background-size: cover}
     #sub_content #visual .area{text-align: center}
+    #sub_content #sub1 .area .cell{width: 1200px}
     #sub_content #visual .area h3{font-size: 63px;padding-top: 90px}
     #sub_content #visual .area h3:after{display: none}
     #sub_content #visual .area p{font-size: 13px;line-height: 26px;padding-top: 20px}
-    #sub1 .menu{border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;height: 70px;width: 1000px;margin-top: 70px}
-    #sub1 .menu li{font-size: 20px;line-height: 40px;margin-top: 18px;width: 250px;text-align: center}
+    #sub1 .menu{height: 70px;width: 1200px;margin-top: 70px}
+    #sub1 .menu li{font-size: 20px;line-height: 40px;margin-top: 18px;width: 220px;text-align: center}
+    #sub1 .menu .menu2 {margin-left: 277px;}
     #sub1 .menu li.on:after{width: 250px;height: 2px}
+    #sub1 #food{width: 1200px}
+    #sub1 #food li{margin-left: 170px;}
+    #sub1 #food .list2.paddingB span{margin-top: 23px}
 }
+
 @media screen and (max-width: 1366px){
     #visual .area{max-width: 1100px;}
 }
 
 @media screen and (max-width: 1280px) and (min-width: 1025px) {
-    .area{width: 930px;margin: 0 auto}
-    #visual .area{max-width:1000px}
+    .area{width: 1040px;margin: 0 auto;}
+    #visual .area{max-width:1040px}
+    #sub_content #sub1 .area .cell{width: 1040px}
     #sub_content #visual{height: 300px;margin-top: 50px}
     #sub_content #visual .area h3{font-size: 50px;padding-top: 90px}
-    #sub1 .menu{height: 50px;width: 1280px;margin-top: 40px}
+    #sub1 .menu{height: 50px;width: 1040px;margin-top: 40px}
     #sub1 .menu li{margin-top: 5px;width: 200px}
     #sub1 .menu li.on:after{width: 200px;margin-top:3px}
-    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 155px}
-    #sub1 #food{padding: 0 20px}
-    #sub1 #food li{padding-top: 10px;margin-left: 70px}
+    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 213px}
+    #sub1 #food{width: 1040px}
+    #sub1 #food .mark{margin-top: -15px}
+    #sub1 #food li{padding-top: 10px;margin-left: 140px}
     #sub1 #food li img{width: 250px}
     #sub1 #food li span{font-size: 17px}
 
@@ -136,31 +144,57 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .area{width: 100%}
-    #sub1 .menu{width: 1024px}
-    #sub1 .menu li{width: 220px}
-    #sub1 .menu li.on:after{width: 220px;margin-top:11px}
-    #sub1 #food li {padding-top: 26px;margin-left: 83px}
+    .area{width: 1000px;margin: 0 auto;}
+    .head_top{width: 1000px}
+    #header.sub_head .logo{margin-left: 10px}
+    #visual .area{max-width:1000px}
+    #sub_content #sub1 .area .cell{width: 1000px}
+    #sub_content #visual{height: 300px;margin-top: 50px}
+    #sub_content #visual .area h3{font-size: 50px;padding-top: 90px}
+    #sub1 .menu{height: 50px;width: 1000px;margin-top: 40px}
+    #sub1 .menu li{margin-top: 5px;width: 200px}
+    #sub1 .menu li.on:after{width: 200px;margin-top:3px}
+    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 160px}
+    #sub1 #food{width: 1000px;padding: 0 10px;box-sizing: border-box}
+    #sub1 #food .mark{margin-top: -15px}
+    #sub1 #food li{padding-top: 10px;margin-left: 113px}
+    #sub1 #food li img{width: 250px}
+    #sub1 #food li span{font-size: 17px}
+
+
+     /* modal */
+     #modal .md_cnt{width: 900px;height: 400px}
+     #modal .md_cnt img{width: 200px;height: 200px;top: 23%;left: 35px}
+     #modal .md_close_btn img{width: 13px;height: auto}
+     #modal div h4, #modal div p, #modal div span{left: 296px}
+     #modal div h4{left: 290px;font-size: 35px;top: 79px}
+     #modal div p{width: 500px;top: 196px;font-size: 15px;line-height: 23px}
+     #modal div span{font-size: 13px}
+     #modal div .eng{top: 135px}
+     #modal div .pri{top: 160px}
+     #modal div table{right: 116px;bottom: 60px}
+     #modal div table th{padding: 0 10px;font-size: 13px}
+     #modal div table td{padding: 0px 25px;font-size: 13px;}
+     #modal .md_close_btn{position: absolute;top: 30px;right: 30px}
+
 }
 
 @media screen and (max-width: 767px){
-
-    #header{height: 100px;background: none}
-    #visual .area{max-width: 767px}
+    #header{height: 100px}
+    .area{width: 100%}
     #sub_content #visual{background-image: url("../images/menu/m_menu_bg.jpg");background-size: cover;height: 300px}
-    #sub_content #visual .area{text-align: center;color: #fff;margin-top: -5px}
-    #sub_content #visual .area h3{font-size: 63px;padding-top: 60px;}
-    #sub1 .menu{width: 767px;margin-top: 30px}
-    #sub1 .menu li{font-size: 18px}
-    #sub1 .menu li.on:after{margin-top:11px}
-    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 38px}
-    #sub1 #food{margin-top: 40px;padding: 0;margin-left: 12.5px}
-    #sub1 #food li{float: left;height: 400px;padding-top: 20px;box-sizing: border-box;margin-left:30px;}
-    #sub1 #food .list9.last{margin-left: 16px}
-    #sub1 #food li img{width: 230px;}
-    #sub1 #food li span{font-size: 18px}
-    #sub1 #food .margin{margin-left: 0px}
-    #sub1 #food .list1 p, #sub1 #food .list2 p{width: 60px;height: 30px;font-size: 13px;color: #fff;text-align: center;line-height: 30px}
+    #sub_content #sub1 .area .cell{width: 100%}
+    #sub1 .menu{height: 50px;width: 700px;margin-top: 40px;margin-left: 33.5px}
+    #sub1 .menu li{margin-top: 5px;width: 200px}
+    #sub1 .menu li.on:after{margin-top:4px}
+    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 37px}
+    #sub1 #food{width: 700px;padding: 0 10px;margin-left: 33.5px}
+    #sub1 #food .mark{margin-top: -15px}
+    #sub1 #food li{padding-top: 10px;margin-left: 40px;height: 300px;}
+    #sub1 #food .list9.last{margin-left: 20px}
+    #sub1 #food li img{width: 200px}
+    #sub1 #food li span{font-size: 16px}
+
 
     /* modal */
     #modal .md_cnt{width: 400px;height: 600px;text-align: center}
@@ -176,13 +210,26 @@
     #modal div table th{padding: 0 5px;font-size: 12px}
     #modal div table td{padding: 0px 20px;font-size: 12px;}
     #modal .md_close_btn{top: 20px;right: 20px}
-
-    
-    
+}
+@media screen and (max-width: 370px) and (min-width: 320px) {
+    #visual .area{width: 100%}
+    .area{max-width: 370px;background: darkcyan}
+    #sub1 .menu{height: 30px;width: 100%;margin-top: 40px;margin-left: 33.5px}
 
 
 }
 
+/* 
+    #sub1 .menu li{margin-top: 5px;width: 200px}
+    #sub1 .menu li.on:after{margin-top:4px}
+    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 37px}
+    #sub1 #food{width: 700px;padding: 0 10px;margin-left: 33.5px}
+    #sub1 #food .mark{margin-top: -15px}
+    #sub1 #food li{padding-top: 10px;margin-left: 40px;height: 300px;}
+    #sub1 #food .list9.last{margin-left: 20px}
+    #sub1 #food li img{width: 200px}
+    #sub1 #food li span{font-size: 16px}
 
+*/
 
 

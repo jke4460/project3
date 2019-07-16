@@ -131,8 +131,7 @@
 	.slider ul li{width: 1000px}
 }
 
-/* 테블릿
-@media screen and (max-width: 1024px) { */
+/* 테블릿 */
 @media screen and (max-width: 1280px) {
     /* display_none */
     .scroll{display: none}
