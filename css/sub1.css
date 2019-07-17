@@ -181,19 +181,22 @@
 
 @media screen and (max-width: 767px){
     #header{height: 100px}
-    .area{width: 100%}
+    .area{width: 414px}
     #sub_content #visual{background-image: url("../images/menu/m_menu_bg.jpg");background-size: cover;height: 300px}
-    #sub_content #sub1 .area .cell{width: 100%}
-    #sub1 .menu{height: 50px;width: 700px;margin-top: 40px;margin-left: 33.5px}
-    #sub1 .menu li{margin-top: 5px;width: 200px}
-    #sub1 .menu li.on:after{margin-top:4px}
+    #sub_content #sub1 .area .cell{width: 414px}
+    #sub1 .menu{height: 50px;width: 414px;margin-top: 40px;margin-left: 0px}
+    #sub1 .menu li{margin-top: 5px;width: 105px;font-size: 15px}
+    #sub1 .menu li.on:after{width: 105px}
     #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 37px}
-    #sub1 #food{width: 700px;padding: 0 10px;margin-left: 33.5px}
+    #sub1 #food{width: 414px;padding: 0 10px;margin-left: 0px}
+    #sub1 #food .list1 p, #sub1 #food .list2 p{margin-left: 30%;margin-bottom: 10px;width: 50px;height: 30px;font-size: 14px;line-height: 30px;}
     #sub1 #food .mark{margin-top: -15px}
-    #sub1 #food li{padding-top: 10px;margin-left: 40px;height: 300px;}
-    #sub1 #food .list9.last{margin-left: 20px}
-    #sub1 #food li img{width: 200px}
-    #sub1 #food li span{font-size: 16px}
+    #sub1 #food li{padding-top: 10px;margin-left: 0px;height: 280px;}
+    #sub1 #food li:nth-child(even){margin-left: 25px}
+    #sub1 #food .list9.last{margin-left: 0px}
+    #sub1 #food li img{width: 180px}
+    #sub1 #food li span{font-size: 14px}
+    #sub1 #food .list2.paddingB span{margin-top: 13px}
 
 
     /* modal */
@@ -211,6 +214,7 @@
     #modal div table td{padding: 0px 20px;font-size: 12px;}
     #modal .md_close_btn{top: 20px;right: 20px}
 }
+
 @media screen and (max-width: 370px) and (min-width: 320px) {
     #visual .area{width: 100%}
     .area{width: 100%;}
@@ -226,11 +230,5 @@
     #sub1 #food li img{width: 200px}
     #modal .md_cnt{width: 350px;height: 500px;text-align: center}
 }
-
-/* 
-
-    #sub1 #food li span{font-size: 16px}
-
-*/
 
 
