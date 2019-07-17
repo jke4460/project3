@@ -201,8 +201,8 @@
 }
 
 @media screen and (max-width: 767px) {
-    .title{font-size: 25px;padding-top: 0px}
-    .title:after, .title2:after{width: 16px;margin-left: 49%;margin-top: 5px}
+    .title{font-size: 25px;padding-top: 0px;margin-top: -70px}
+    .title:after,.title2:after{width: 16px;margin-left: 49%;margin-top: 5px}
     .area{text-align: center}
     #header{height: 105px}
     #header .head_top{width: 100%;background: #235b42;height: 70px;position: fixed}
@@ -215,7 +215,7 @@
     /* #cnt0 */
 	#content > article > .area{padding-top: 70px;}
     #cnt0{padding-top: 0px}
-    #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;}/* margin-bottom: 200px */
+    #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;margin-top: -56px}/* margin-bottom: 200px */
     #cnt0 .area span{font-size: 20px;margin-top: -350px;left: 36%}
     #cnt0 .area span:before{width: 30px;margin-bottom: 5px;margin-left: 80px}
     #cnt0 .area img{top: 205px;left: 50%;margin-left: -135px;margin-top: 0px;width: 270px;height: 270px;}
@@ -231,10 +231,11 @@
 
     /* #cnt2 */
     #cnt2 h3, #cnt3 h3{margin-top: -60px}
-    #cnt2,  #cnt3{width: 100%;background: none;color: #2b2b2b }
-   #cnt2 .txt h4, #cnt3 .txt h4{font-size: 25px;margin-bottom: 30px}
+    #cnt2,#cnt3{width: 100%;background: none;color: #2b2b2b }
+    #cnt2 .txt, #cnt3 .txt{margin-left: 0px;text-align: center}
+    #cnt2 .txt p, #cnt3 .txt p{text-align: center;line-height: 28px;font-size: 15px;}
+   #cnt2 .txt h4, #cnt3 .txt h4{font-size: 25px;margin-bottom: 30px;text-align: center}
    .txt h4:after{top: 40px;width: 30px}
-   .txt p{line-height: 28px;font-size: 15px}
    .slider{width: 350px;margin-top: 13px}
    .slider ul{padding-top: 10px}
    .slider ul li{width: 350px}
@@ -245,11 +246,15 @@
    #cnt2 .txt h4:after, .slider .visual li .txt h4:after{left: 50%;}
    #cnt3 .slider ul {padding-top: 0px}
 
-	.control{left: 50%;top: 100px;margin-left: 0px;}
+	/* .control{left: 50%;top: 100px;margin-left: 0px;} */
     .control button{position: absolute;top: 0;background: no-repeat}
     .control button img{opacity: 0;}
 	.control .next{width: 19px;height: 34px;margin-left: 0;left: 155px;background-image: url("../images/common/m_next.png")}
-	.control .prev{left: -174px;;background-image: url("../images/common/m_prev.png")}
+    .control .prev{left: -137px;;background-image: url("../images/common/m_prev.png")}
+    #cnt2 .control{left: 45%;top: 100px}
+    #cnt3 .control{left: 45%;top: 86px}
+
+
 
 	#cnt4, #cnt5{background: #235b42;text-align: center}
 	#content > #cnt4 > .area, #content > #cnt5 > .area{padding-top: 0;}
