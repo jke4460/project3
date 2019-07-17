@@ -32,7 +32,7 @@
 #cnt0 .area span:before{content: "";display: block;width: 35px;height: 1px;background: #fff;margin-bottom: 10px}
 #cnt0 .area p{line-height: 32px;margin-top: 51px}
 #cnt0 em{display: block;font-size: 22px;width: 251px;height: 40px;line-height: 40px;background: rgba(255, 255, 255, 0.4);padding: 3px 5px 3;margin-top: 35px;text-align: center}
-#cnt0 .area img{position: absolute;top: 0 ;left: 50%;margin-top: 120px}
+#cnt0 .area img{position: absolute;top: 0 ;left: 50%}
 
 .scroll{position: fixed;bottom: 30px;left: 50%;margin-left: -12px;width: 24px;background: url("../images/common/scroll_w.png") no-repeat center top;color: #fff}
 .scroll.black{background-image: url("../images/common/scroll_b.png");color: #2b2b2b}
@@ -120,7 +120,7 @@
 /* 추가 */
 @media screen and (max-width: 1440px) {
 	#cnt0 .area img{left: 49%;}
-
+    #cnt1 .title {margin-top: -90px;}
 	#cnt6 .subTxt{padding-bottom: 50px;}
 	#cnt6 ul li.top{display: none;}
 }
@@ -155,7 +155,7 @@
     #cnt0{padding-top: 60px}
     #cnt0 .area h3{font-size: 60px;padding-top: 20px;line-height: 63px}
     #cnt0 .area span{font-size: 25px;margin-top: -190px}
-    #cnt0 .area img{position: absolute;top: 0 ;left: 50%;margin-top: 160px;width: 450px;height: 450px;}
+    #cnt0 .area img{position: absolute;top: 0 ;left: 50%;width: 450px;height: 450px;}
     #cnt0 .area span:before{content: "";display: block;width: 35px;height: 1px;background: #fff;margin-bottom: 10px}
     #cnt0 .area p{font-size: 15px;line-height: 30px;margin-top: 40px;margin-bottom: 5px}
     #cnt0 em{font-size: 20px;width: 240px;height: 35px;line-height: 35px}
@@ -165,6 +165,8 @@
     #cnt1 strong{display: block;font-size: 22px;margin: 10px 0 30px}
     #cnt1 p{font-size: 16px;line-height: 32px}
     /* cnt2, cnt3 */
+    #cnt2 .txt{margin-left: 0px}
+    #cnt3 .txt{margin-right: 0px}
     .txt h4{font-size: 27px;margin-bottom: 30px}
     .txt h4:after{top: 50px;width: 33px}
     .txt p{line-height: 28px;font-size: 15px}
@@ -189,7 +191,7 @@
     #cnt6 .subTxt{font-size: 13px}
 	#cnt6 ul{width: 100%;margin-left: 0;text-align: center}
     #cnt6 ul li{float: none;display: inline-block;margin-left: 0px;vertical-align: top}
-	#cnt6 ul li.list4{display: none;}
+
     
     #cnt6 ul li p{width: 237px;background: #fff;height: 80px;font-size: 13px;text-align: left;padding: 10px 0 20px 10px;box-sizing: border-box}
     #cnt6 ul .top{margin-top: 20px}
@@ -199,6 +201,7 @@
     #footer .wrap{padding: 0 30px}
     #footer .area .sns{right: 40px;}
 }
+
 
 @media screen and (max-width: 767px) {
     .title{font-size: 25px;padding-top: 0px;margin-top: -70px}
@@ -214,12 +217,12 @@
 
     /* #cnt0 */
 	#content > article > .area{padding-top: 70px;}
-    #cnt0{padding-top: 0px}
-    #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;margin-top: -56px}/* margin-bottom: 200px */
-    #cnt0 .area span{font-size: 20px;margin-top: -350px;left: 36%}
-    #cnt0 .area span:before{width: 30px;margin-bottom: 5px;margin-left: 80px}
-    #cnt0 .area img{top: 205px;left: 50%;margin-left: -135px;margin-top: 0px;width: 270px;height: 270px;}
-    #cnt0 .area p{position: relative;font-size: 14px;padding-top: 255px;line-height: 26px;z-index: 1}
+    #cnt0{padding-top: 0px;background: url("../images/main/m_bg.jpg")repeat-x center top;background-size: contain}
+    #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;margin-top: -270px}
+    #cnt0 .area span{font-size: 16px;margin-top: -120px;margin-left: -17%}
+    #cnt0 .area span:before{width: 20px;margin-bottom: 5px;margin-left: 65px}
+    #cnt0 .area img{top: 345px;left: 50%;margin-left: -135px;margin-top: 0px;width: 270px;height: 270px;}
+    #cnt0 .area p{position: relative;font-size: 13px;padding-top: 0px;line-height: 20px;z-index: 1;margin-top: 15px;}
     #cnt0 em{font-size: 12px;width:125px;height: 24px;line-height: 24px;margin: 0 auto;margin-top: 20px}
 
     /* #cnt1 */
@@ -253,13 +256,11 @@
     .control .prev{left: -137px;;background-image: url("../images/common/m_prev.png")}
     #cnt2 .control{left: 45%;top: 100px}
     #cnt3 .control{left: 45%;top: 86px}
-
-
-
+    .main_txt p{text-align: center}
 	#cnt4, #cnt5{background: #235b42;text-align: center}
 	#content > #cnt4 > .area, #content > #cnt5 > .area{padding-top: 0;}
     .m_event{display: block;}
-    #cnt4 h3, #cnt5 h3{font-size: 25px}
+    #cnt4 h3, #cnt5 h3{font-size: 25px;margin-left: 0px;}
 	#cnt4 .main_txt, #cnt5 .main_txt{margin-left: 0;width: 100%;overflow: hidden;}
 	.main_txt .circle{position: relative;left: 50%;width: 170px;height: 170px;margin-left: -85px;}
     .main_txt p{padding-bottom: 5px;}
@@ -270,14 +271,13 @@
     .main_txt .circle img{margin-top: 30px}
     .main_txt p{padding-top: 10px}
 
-
 	#cnt6{background: none;height: auto !important}
 	#cnt6 ul{margin-bottom: 30px;}
 	#cnt6 ul li+ li{margin-top: 20px;}
 
 	/* footer */
 	#footer{border-top: 1px solid #aaa;height: auto}
-	#footer .area.wrap{position: relative;width: 100%;height: auto;padding: 30px;margin-top: 0;text-align: left}
+	#footer .area.wrap{position: relative;width: 100%;height: auto;padding: 30px;margin-top: 0;text-align: left;box-sizing: border-box}
 	#footer .area .foot_box, #footer .area .sns{position: static;}
 	#footer .area .foot_box{margin-left: 0;}
 	#footer .area .foot_box ul + p span{display: block;}

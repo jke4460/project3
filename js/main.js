@@ -17,6 +17,13 @@ $(document).ready(function () {
           cntHei = $(this).height();
           //console.log(cntHei);
           $cnt.css({height:cntHei});
+          if ($(window).width() > 767) {
+            var cnt0ImgHei = $('#cnt0 .area img').height();
+            console.log(cntHei, cnt0ImgHei, (cntHei - cnt0ImgHei) / 2);
+            $('#cnt0 .area img').css({top: (cntHei - cnt0ImgHei) / 2});
+          }else {
+            $('#cnt0 .area img').removeAttr('style');
+          }
 
           cntPosT = new Array(total);
           for (var i=0; i<total; i++) {
@@ -33,6 +40,7 @@ $(document).ready(function () {
       },50);
   });
   $(window).trigger('resize');
+
 
   $menu.children().on('click', function (e) {
       e.preventDefault();
