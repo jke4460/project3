@@ -9,7 +9,7 @@
 #pcGnb{background-image: none}
 #sub2_content{text-align: center;margin: 0 auto}
 #sub2_content .area{height: auto}
-#sub2_content #visual{height: 400px;margin-top: 90px;background: url("../images/use/sub2_bg.jpg")no-repeat;color: #fff}
+#sub2_content #visual{height: 400px;margin-top: 225px;background: url("../images/use/sub2_bg.jpg")no-repeat;color: #fff}
 #sub2_content #visual h3{font-size: 65px;font-family: NotoB;letter-spacing: 3.65px;padding-top: 65px}
 #sub2_content #visual h3:after{content: "";display: block;width: 35px;height: 1px;background: #fff;margin-top: 41px}
 #sub2_content #visual p{font-size: 15px;line-height: 24px;margin-top: 41px}
@@ -71,7 +71,7 @@
     #visual .area{max-width: 1200px;}
     .area{width: 960px}
     #sub2 .vis1{background-size: cover}
-    #sub2_content #visual{height: 300px;margin-top: 120px;background: url("../images/use/sub2_bg.jpg")no-repeat;color: #fff}
+    #sub2_content #visual{height: 300px;margin-top: 225px;}
     #sub2_content #visual h3{font-size: 50px;padding-top: 60px}
     #sub2_content #visual h3:after{width: 30px;height: 1px;margin-top: 10px}
     #sub2_content #visual p{font-size: 14px;line-height: 24px;margin-top: 41px}
@@ -82,7 +82,7 @@
     #sub2 .vis1 .circle .cnTxt{margin-left: 0px;padding-top: 72px}
     #sub2 .vis1 .circle h4, #sub2 .vis3 h4{font-size: 30px;line-height: 40px}
     #sub2 .vis1 .circle p, #sub2 .vis3 p{font-size: 14px;padding-top: 10px}
-    #sub2 .vis1 .icon{height: 200px;background:#fff;margin-top: 100px;margin-left: 45px}
+    #sub2 .vis1 .icon{height: 200px;background:#fff;margin-top: 77px;margin-left: 45px}
     #sub2 .vis1 .icon li{width: 300px;padding-top: 40px}
     #sub2 .vis1 .icon li span{display: block;font-size: 15px;padding-top: 27px}
     #sub2 .vis1 .icon li.on img{margin-top: -20px}
@@ -103,7 +103,7 @@
 @media screen and (max-width: 767px){
     #header{height: 100px;background: none}
     #visual .area{max-width: 767px;text-align: center}
-    #sub2_content #visual{height: 300px;margin-top: 50px;background: url("../images/use/m_bg.jpg")no-repeat;color: #fff}
+    #sub2_content #visual{height: 300px;margin-top: 220px;background: url("../images/use/m_bg.jpg")no-repeat;color: #fff}
     #sub2_content #visual h3{font-size: 40px;padding-top: 60px}
     #sub2_content #visual h3:after{width: 30px;height: 1px;margin-top: 10px}
     #sub2_content #visual p{font-size: 13px;line-height: 23px;margin-top: 30px;width: 400px;margin-left: 41.5px}
@@ -118,8 +118,10 @@
     #sub2 .vis1 .icon{height: 100px;margin-top: 0px;margin-left: 5px;width: 483px}
     #sub2 .vis1 .icon li{width: 161px;margin-top: 20px}
     #sub2 .vis1 .icon li span{font-size: 13px;padding-top: 30px}
-    #sub2 .vis1 .icon li.on img{margin-top: -10px}
+    #sub2 .vis1 .icon li.on img{margin-top: 0px}
 
+
+    
     #sub2 .vis2 .subTit{margin-top: 150px}
     #sub2 .vis2 .box .list1,#sub2 .vis2 .box .list2, #sub2 .vis2 .box .list3{margin-left:101.5px;margin-top: 30px}
     #sub2 .vis2 .box  li{height: 350px;}

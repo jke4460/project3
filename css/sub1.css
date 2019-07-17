@@ -215,20 +215,4 @@
     #modal .md_close_btn{top: 20px;right: 20px}
 }
 
-@media screen and (max-width: 370px) and (min-width: 320px) {
-    #visual .area{width: 100%}
-    .area{width: 100%;}
-    #sub1 .menu{height: 30px;width: 40%;margin-top: 30px;}
-    #sub_content #sub1 .area .cell{width: 100%}
-    #sub1 .menu li{margin-top: 5px;width: 50px;font-size: 18px}
-    #sub1 .menu .menu2, #sub1 .menu .menu3{margin-left: 0px}
-    #sub1 .menu li.on:after{margin-top:-15px}
-    #sub1 #food{width: 350px;padding: 0 5px;margin-left: 33.5px}
-    #sub1 #food .mark{margin-top: -15px;}
-    #sub1 #food li{padding-top: 0px;margin-left: 55px;}
-    #sub1 #food .margin{margin-left: 55px}
-    #sub1 #food li img{width: 200px}
-    #modal .md_cnt{width: 350px;height: 500px;text-align: center}
-}
-
 
