@@ -132,7 +132,7 @@
     #sub2 .vis2 .box .list1,#sub2 .vis2 .box .list2, #sub2 .vis2 .box .list3{margin-left:5%;margin-top: 30px}
     #sub2 .vis2 .box li img{width: 100%}
     #sub2 .vis2 .box li:hover img{transform: scale(1)}
-    #sub2 .vis2 .box li .txt{text-align: center;width: 100%;padding-left: 0px}
+    #sub2 .vis2 .box li .txt{text-align: center;width: 100%;padding-left: 0px;padding-bottom: 10px}
     #sub2 .vis2 .box li .txt span{font-size: 13px}
     #sub2 .vis2 .box li .txt p{font-size: 13px;line-height: 22px;width: 90%;letter-spacing: 0.5px;margin-left: 15px}
     #sub2 .vis3{background: url("../images/use/m_bg3.jpg")no-repeat top center;left: 0;right: 0;bottom: 0;margin-top: 88px;color: #fff;margin-bottom: 0px;background-size: contain}

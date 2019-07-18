@@ -6,23 +6,7 @@
 .title{font-size: 48px;text-align: center;margin-top: -150px}
 .title:after, .title2:after{content: "";display: block;width: 35px;height: 1px;background: #235b42;margin-left: 49%;margin-top: 10px}
 
-/* indicator */
-#indicator{position: fixed;right: 30px;top: 50%;margin-top: -100px;width: 110px;color: #2b2b2b;z-index: 900}
-#indicator.white{color: #fff;}
-#indicator ul li{height: 15px;line-height: 15px;width: 110px;padding: 10px 0}/* width: 20px; */
-#indicator ul li a{display: block;}
-#indicator ul li a span{display: inline-block;vertical-align: middle;}
-#indicator ul li a .txt{width: 85px;font-size: 14px;text-align:right;margin-right: 10px;}
-#indicator ul li a .icon{position: relative;width: 10px;height: 10px;border-radius: 50%}
-#indicator ul li a .icon:before{content: "";position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;border-radius: 50%;background: #2b2b2b;}
-#indicator ul li a .icon, #indicator ul li a .icon:before{transition: all 0.5s}
-#indicator ul li.on a .icon{box-shadow: 0 0 0 1px #000}
-#indicator ul li.on a .icon:before{transform: scale(0.5)}
-#indicator ul li.on a .txt{color: #235b42}
 
-#indicator.white ul li a .icon:before{background: #fff;}
-#indicator.white ul li.on a .icon{box-shadow: 0 0 0 1px #fff}
-#indicator.white ul li.on a .txt,#indicator ul li a:hover, #indicator ul li a:focus{color: #f5b43d}
 /* #cnt0 */
 #content > article > .area{display: table;height: 100%}
 .cell{display: table-cell;vertical-align: middle}
@@ -217,8 +201,7 @@
     .btn_menu{position: absolute;right: 0;margin-right: 5px}
 
     /* #cnt0 */
-    #content > articl
-    e > .area{padding-top: 70px;}
+    #content > article > .area{padding-top: 70px;}
     #cnt0{padding-top: 0px;background: url("../images/main/m_bg.jpg")repeat-x center top;background-size: contain}
     #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;margin-top: -225px}
     #cnt0 .area span{font-size: 14px;margin-top: -107px;margin-left: -15%}
