@@ -170,14 +170,15 @@
     .txt h4{font-size: 27px;margin-bottom: 30px}
     .txt h4:after{top: 50px;width: 33px}
     .txt p{line-height: 28px;font-size: 15px}
-    .slider{width: 920px;margin-top: 50px;}/* overflow: hidden;height: 700px;margin-top: -100px */
-	.slider ul li{width: 920px;height: 435px}
+    .slider{width: 920px;margin-top: 50px;}
+    .slider ul li{width: 920px;height: 435px}
+    
     /* cnt4 */
     .title2{font-size: 30px}
     .title2:after{background-color: #fff}
     .main_txt{font-size: 16px;width: 300px;padding-top: 100px;}
     .main_txt p{padding: 20px 0 47px 0 }
-    .main_txt .circle{width: 250px;height: 250px;margin-left: 0px}
+    .main_txt .circle{width: 250px;height: 250px;margin-left: 0px;background: none}
     .main_txt .circle p{font-size: 13px;padding-top: 10px}
     .main_txt .circle p:before{content: "";display: block;width: 27px;height: 1px;background: #fff;margin-left: 45%;margin-bottom: 16px}
     #cnt4{background-image: url("../images/main/t_bg_e1.jpg")}
@@ -219,11 +220,11 @@
 	#content > article > .area{padding-top: 70px;}
     #cnt0{padding-top: 0px;background: url("../images/main/m_bg.jpg")repeat-x center top;background-size: contain}
     #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;margin-top: -270px}
-    #cnt0 .area span{font-size: 16px;margin-top: -120px;margin-left: -17%}
-    #cnt0 .area span:before{width: 20px;margin-bottom: 5px;margin-left: 65px}
+    #cnt0 .area span{font-size: 14px;margin-top: -107px;margin-left: -15%}
+    #cnt0 .area span:before{width: 20px;margin-bottom: 3px;margin-left: 56px}
     #cnt0 .area img{top: 345px;left: 50%;margin-left: -135px;margin-top: 0px;width: 270px;height: 270px;}
     #cnt0 .area p{position: relative;font-size: 13px;padding-top: 0px;line-height: 20px;z-index: 1;margin-top: 15px;}
-    #cnt0 em{font-size: 12px;width:125px;height: 24px;line-height: 24px;margin: 0 auto;margin-top: 20px}
+    #cnt0 em{font-size: 12px;width:125px;height: 24px;line-height: 24px;margin: 0 auto;margin-top: 15px}
 
     /* #cnt1 */
     #cnt1{background: none}
@@ -233,7 +234,7 @@
 	#cnt1 .polygon img{width: 250px;}
 
     /* #cnt2 */
-    #cnt2 h3, #cnt3 h3{margin-top: -60px}
+    #cnt2 h3, #cnt3 h3{margin-top: -100px}
     #cnt2,#cnt3{width: 100%;background: none;color: #2b2b2b }
     #cnt2 .txt, #cnt3 .txt{margin-left: 0px;text-align: center}
     #cnt2 .txt p, #cnt3 .txt p{text-align: center;line-height: 28px;font-size: 15px;}
@@ -249,7 +250,7 @@
    #cnt2 .txt h4:after, .slider .visual li .txt h4:after{left: 50%;}
    #cnt3 .slider ul {padding-top: 0px}
 
-	/* .control{left: 50%;top: 100px;margin-left: 0px;} */
+
     .control button{position: absolute;top: 0;background: no-repeat}
     .control button img{opacity: 0;}
 	.control .next{width: 19px;height: 34px;margin-left: 0;left: 155px;background-image: url("../images/common/m_next.png")}
@@ -264,8 +265,8 @@
 	#cnt4 .main_txt, #cnt5 .main_txt{margin-left: 0;width: 100%;overflow: hidden;}
 	.main_txt .circle{position: relative;left: 50%;width: 170px;height: 170px;margin-left: -85px;}
     .main_txt p{padding-bottom: 5px;}
-    #cnt4 .main_txt .circle img{width: 95px;height: 88px;}
-    #cnt5 .main_txt .circle img{width: 118px;height: 80.5px;}
+    #cnt4 .main_txt .circle img{width: 80px;height: auto;}
+    #cnt5 .main_txt .circle img{width: 100px;height:auto}
     #cnt4 .main_txt .circle p{font-size: 13px}
     .main_txt .circle p:before{content: "";display: none}
     .main_txt .circle img{margin-top: 30px}
