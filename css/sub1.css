@@ -139,8 +139,6 @@
     #modal div table th{padding: 0 10px;font-size: 13px}
     #modal div table td{padding: 0px 25px;font-size: 13px;}
     #modal .md_close_btn{position: absolute;top: 30px;right: 30px}
-
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -193,7 +191,7 @@
     #sub1 #food .list1 p, #sub1 #food .list2 p{margin-left: 30%;margin-bottom: 10px;width: 50px;height: 30px;font-size: 14px;line-height: 30px;}
     #sub1 #food .mark{margin-top: -15px}
     #sub1 #food li{padding-top: 10px;margin-left: 0px;height: 280px;}
-    #sub1 #food li:nth-child(even){margin-left: 12px}
+    #sub1 #food li:nth-child(even){margin-left: 40px}
     #sub1 #food .list9.last{margin-left: 0px}
     #sub1 #food li img{max-width: 170px}
     #sub1 #food li span{font-size: 14px}

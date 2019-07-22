@@ -10,7 +10,7 @@
 #sub2_content{text-align: center;margin: 0 auto}
 #sub2_content .area{height: auto}
 #sub2_content #visual{height: 400px;margin-top: 225px;background: url("../images/use/sub2_bg.jpg")no-repeat;color: #fff}
-#sub2_content #visual h3{font-size: 65px;font-family: NotoB;letter-spacing: 3.65px;padding-top: 65px}
+#sub2_content #visual h3{font-size: 65px;font-family: NotoB;padding-top: 65px}
 #sub2_content #visual h3:after{content: "";display: block;width: 35px;height: 1px;background: #fff;margin-top: 41px}
 #sub2_content #visual p{font-size: 15px;line-height: 24px;margin-top: 41px}
 #sub2_content .subTit{font-family: NotoB;font-size: 50px;letter-spacing: 0.5px;padding-top: 82px}
@@ -24,7 +24,7 @@
 #sub2 .vis1 .icon{height: 247px;background: #fff;margin-top: 44px}
 #sub2 .vis1 .icon li{float: left;width: 399px;padding-top: 58px}
 
-#sub2 .vis1 .icon li img, #sub2 .vis2 .box li .txt span,#sub2 .vis2 .box li img {transition: all 0.3s}
+#sub2 .vis1 .icon li img, #sub2 .vis2 .box li .txt span,#sub2 .vis2 .box li img{transition: all 0.3s}
 
 #sub2 .vis1 .icon li.on img{margin-top: -30px}
 #sub2 .vis1 .icon .list1{border-left: none}
@@ -43,7 +43,6 @@
 #sub2 .vis2 .box li .txt strong{display: inline-block;font-size: 30px;margin-top: 29px}
 #sub2 .vis2 .box li .txt span{font-size: 15px;display: block;color: #888}
 
-/* #sub2 .vis2 .box li:hover img{transform: scale(1.3)} */
 #sub2 .vis2 .box .list1:hover .txt span{color: #235b42}
 #sub2 .vis2 .box .list2:hover .txt span{color: #751619}
 #sub2 .vis2 .box .list3:hover .txt span{color: #deae42}
@@ -131,7 +130,7 @@
     #sub2 .vis2 .box li{width: 90%}
     #sub2 .vis2 .box .list1,#sub2 .vis2 .box .list2, #sub2 .vis2 .box .list3{margin-left:5%;margin-top: 30px}
     #sub2 .vis2 .box li img{width: 100%}
-    #sub2 .vis2 .box li:hover img{transform: scale(1)}
+    #sub2 .vis2 .box li:hover img{transform: scale(1.1)}
     #sub2 .vis2 .box li .txt{text-align: center;width: 100%;padding-left: 0px;padding-bottom: 10px}
     #sub2 .vis2 .box li .txt span{font-size: 13px}
     #sub2 .vis2 .box li .txt p{font-size: 13px;line-height: 22px;width: 90%;letter-spacing: 0.5px;margin-left: 15px}

@@ -31,7 +31,7 @@
 #cnt0 .area span{position: absolute;font-family: NotoT;font-size: 30px;margin-top: -290px}
 #cnt0 .area span:before{content: "";display: block;width: 35px;height: 1px;background: #fff;margin-bottom: 10px}
 #cnt0 .area p{line-height: 32px;margin-top: 51px}
-#cnt0 em{display: block;font-size: 22px;width: 251px;height: 40px;line-height: 40px;background: rgba(255, 255, 255, 0.4);padding: 3px 5px 3;margin-top: 35px;text-align: center}
+#cnt0 em{display: block;font-size: 22px;width: 251px;height: 40px;line-height: 40px;background: rgba(255, 255, 255, 0.4);padding: 3px 5px 3px;margin-top: 35px;text-align: center}
 #cnt0 .area img{position: absolute;top: 0 ;left: 50%}
 
 .scroll{position: fixed;bottom: 30px;left: 50%;margin-left: -12px;width: 24px;background: url("../images/common/scroll_w.png") no-repeat center top;color: #fff}
@@ -108,12 +108,23 @@
 #cnt6 .subTxt{text-align: center;font-size: 15px;padding: 20px 0 35px 0}
 #cnt6 ul{width: 100%;margin-left: 93px}/* height: 610px;대신 공통클래스 .clearfix 1440이하 해상도 부터 한줄(4개만) 보여지도록 */
 #cnt6 ul li{float: left;margin-left: 22px}
-#cnt6 ul li p{width: 237px;background: #fff;height: 90px;font-size: 12px;text-align: left;padding: 10px 0 20px 10px;box-sizing: border-box}
+#cnt6 ul li p{width: 237px;height: 90px;font-size: 14px;text-align: center}
 #cnt6 ul .list1, #cnt6 ul .list5{margin-left: 0}
 #cnt6 ul .top{margin-top: 38px}
 #cnt6 ul li img,#cnt6 ul li p{transition: all 0.4s} 
-#cnt6 ul li{background: #2b2b2b;}
+#cnt6 ul li{background: #235b42;}
 
+#cnt6 .flip{color: #fff;position: relative;overflow: hidden;min-width: 237px;max-width: 237px;max-height: 280px;
+  width: 100%;text-align: center;background-color: #235b42;font-size: 16px;-webkit-perspective: 50em;
+perspective: 50em;}
+#cnt6 .flip *{-webkit-box-sizing: border-box;box-sizing: border-box;-webkit-transition: all 0.6s ease;transition: all 0.6s ease;}
+#cnt6 .flip img{opacity: 1;width: 100%;-webkit-transform-origin: 50% 0%;-ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;}
+  #cnt6 .flip p{position: absolute;top: 40px;left: 0;bottom: 0;width: 100%;-webkit-transform: rotateX(90deg);transform: rotateX(90deg);
+-webkit-transform-origin: 50% 100%;-ms-transform-origin: 50% 100%;transform-origin: 50% 100%;z-index: 1;opacity: 0;padding: 20px 30px;line-height: 1.5em;font-weight: 500;margin: 0 0 15px;}
+#cnt6 .flip:hover img{-webkit-transform: rotateX(-90deg);transform: rotateX(-90deg);opacity: 0;}
+#cnt6 .flip:hover p{-webkit-transform: rotateX(0deg);transform: rotateX(0deg);opacity: 1;-webkit-transition-delay: 0.2s;
+transition-delay: 0.2s;}
 
 #cnt1, #cnt4, #cnt5, #cnt6{background-size: cover;background-repeat: no-repeat;background-position: center}
 
@@ -189,14 +200,12 @@
     /* cnt6 */
     #cnt6{background: url("../images/main/review_bg.jpg")no-repeat}
     #cnt6 h3{padding-top:0}
-    #cnt6 .subTxt{font-size: 13px}
+    #cnt6 .subTxt{font-size: 14px}
 	#cnt6 ul{width: 100%;margin-left: 0;text-align: center}
     #cnt6 ul li{float: none;display: inline-block;margin-left: 0px;vertical-align: top}
-
-    
-    #cnt6 ul li p{width: 237px;background: #fff;height: 80px;font-size: 13px;text-align: left;padding: 10px 0 20px 10px;box-sizing: border-box}
+    #cnt6 ul li p{width: 237px;height: 80px;font-size: 13px;text-align: left;padding: 10px 0 20px 10px;box-sizing: border-box}
     #cnt6 ul .top{margin-top: 20px}
-    #cnt6 ul li.on p{font-size: 13px;}
+
     /* footer */
     #footer{height: 160px;}
     #footer .wrap{padding: 0 30px}
@@ -217,10 +226,9 @@
     .btn_menu{position: absolute;right: 0;margin-right: 5px}
 
     /* #cnt0 */
-    #content > articl
-    e > .area{padding-top: 70px;}
+    #content > article > .area{padding-top: 70px;}
     #cnt0{padding-top: 0px;background: url("../images/main/m_bg.jpg")repeat-x center top;background-size: contain}
-    #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;margin-top: -225px}
+    #cnt0 .area h3{font-size: 40px;line-height: 40px;padding-top: 0;margin-top: -263px}
     #cnt0 .area span{font-size: 14px;margin-top: -107px;margin-left: -15%}
     #cnt0 .area span:before{width: 20px;margin-bottom: 3px;margin-left: 56px}
     #cnt0 .area img{top: 345px;left: 50%;margin-left: -135px;margin-top: 0px;width: 270px;height: 270px;}
@@ -250,8 +258,6 @@
    .slider .visual li .txt{position: relative;margin-left: 0px}
    #cnt2 .txt h4:after, .slider .visual li .txt h4:after{left: 50%;}
    #cnt3 .slider ul {padding-top: 0px}
-
-
     .control button{position: absolute;top: 0;background: no-repeat}
     .control button img{opacity: 0;}
 	.control .next{width: 19px;height: 34px;margin-left: 0;left: 155px;background-image: url("../images/common/m_next.png")}
@@ -259,7 +265,8 @@
     #cnt2 .control{left: 45%;top: 100px}
     #cnt3 .control{left: 45%;top: 86px}
     .main_txt p{text-align: center}
-	#cnt4, #cnt5{background: #235b42;text-align: center}
+    #cnt4, #cnt5{background: #235b42;text-align: center}
+    
 	#content > #cnt4 > .area, #content > #cnt5 > .area{padding-top: 0;}
     .m_event{display: block;}
     #cnt4 h3, #cnt5 h3{font-size: 25px;margin-left: 0px;}
@@ -275,7 +282,8 @@
 
 	#cnt6{background: none;height: auto !important}
 	#cnt6 ul{margin-bottom: 30px;}
-	#cnt6 ul li+ li{margin-top: 20px;}
+    #cnt6 ul li+ li{margin-top: 20px;}
+    #cnt6 ul p{text-align: center;}
 
 	/* footer */
 	#footer{border-top: 1px solid #aaa;height: auto}
